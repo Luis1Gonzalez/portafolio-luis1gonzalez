@@ -1,0 +1,26 @@
+.wrap__header{
+    height: 65px;
+}
+
+
+
+.options{
+    height:25px;
+    width:65px;
+    background-color: #ccc;
+    border-radius:14px;
+}
+
+.option__theme{
+    width: 15px;
+    height:15px;
+    background-color: #000;
+    border-radius:50px;
+    margin: 0 3px;
+}
+
+.option_lenguage{
+    margin: 0 3px;
+    line-height: 5px;
+    font-size:.7rem;
+}
