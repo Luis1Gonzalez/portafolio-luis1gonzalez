@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='wrap__header d-flex'>
-<div className="header__options col-4 d-flex justify-content-center align-items-center">
+<div className="header__options col-4 d-flex justify-content-start align-items-center ps-1">
     <div className="options d-flex align-items-center">
         <div className="option__theme"></div>
         <div className="option_lenguage d-flex align-items-center">English</div>
