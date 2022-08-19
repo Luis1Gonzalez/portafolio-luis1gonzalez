@@ -1,8 +1,6 @@
 .wrap__header{
-    height: 45px;
+    height: 70px;
 }
-
-
 
 .options{
     height:18px;
@@ -23,4 +21,22 @@
     margin: 0 3px;
     line-height: 5px;
     font-size:.7rem;
+}
+
+.link__slice{
+    height:40%;
+}
+
+.link{
+    font-size:.7rem;
+}
+
+.hrs{
+    height: 1.5px;
+    background-color: rgb(255, 5, 5);
+}
+
+.hri{
+    height: 1.5px;
+    background-color: rgb(9, 5, 255);
 }
