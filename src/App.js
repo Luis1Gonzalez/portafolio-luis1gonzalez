@@ -1,13 +1,13 @@
 import './App.css';
-// import Home from './pages/home';
+import Home from './pages/home';
 import Header from './shared/header';
 
 function App() {
   return (
-    <div className="App bg-white">
+    <div className="App">
       <>
       <Header />
-      {/* <Home /> */}
+      <Home />
       </>
     </div>
   );
