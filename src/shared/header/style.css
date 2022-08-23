@@ -2,6 +2,10 @@
     height: auto;
 }
 
+.header__options{
+    height:45px;
+}
+
 .options{
     height:18px;
     width:65px;
@@ -23,22 +27,22 @@
     font-size:.7rem;
 }
 
-.link{
-    font-size:.7rem;
+.letterhead{
+    border-bottom:1px solid #ccc;
 }
 
-.hrs{
-    height: 5.5px;
-    background-color: rgb(255, 5, 5);
-}
-
-.hri{
-    height: 1.5px;
-    background-color: rgb(9, 5, 255);
+.circle__foto{
+    border-bottom:100px solid red;
+     border-left:50px solid transparent;
+      border-right:50px solid transparent;
+       height:0;
+        width:300px;
 }
 
 .circle__foto img{
     height:100px;
-    border-radius:50%;
-    box-shadow: 0 0 5px #000;
+}
+
+h6 spam{
+font-size:1.3rem;
 }
