@@ -29,14 +29,7 @@
 
 .letterhead{
     border-bottom:1px solid #ccc;
-}
-
-.circle__foto{
-    border-bottom:100px solid red;
-     border-left:50px solid transparent;
-      border-right:50px solid transparent;
-       height:0;
-        width:300px;
+    background-color: rgb(127, 146, 253);
 }
 
 .circle__foto img{

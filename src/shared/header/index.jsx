@@ -17,10 +17,10 @@ const Header = () => {
       </div>
       
       <div className="letterhead d-flex">
-        <div className="circle__foto col-5 d-flex justify-content-center align-items-center p-3 bg-warning">
+        <div className="circle__foto col-5 d-flex justify-content-center align-items-center">
           <img src={foto} alt="mi foto" />
         </div>
-        
+
         <div className="name col-7 d-flex flex-column align-items-start justify-content-center">
             <h4>Luis A. González R.</h4>
             <h6> <spam>&#60;</spam> FrontEnd Developer   <spam>/&#62;</spam></h6>
