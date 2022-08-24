@@ -38,15 +38,42 @@
 }
 
 .pName{
-    font-size:1.2rem;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .pTitle{
-    font-size:1rem;
     color:rgb(104, 100, 100);
+    font-size:.9rem;
     }
 
 .pTitle spam{
 font-size:1.3rem;
+}
+
+
+
+/* ====================================================================== */
+
+@media (min-width:576px){
+
+    .circle__foto img{
+        height:100px;
+    }
+    
+    .pName{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .pTitle{
+        color:rgb(104, 100, 100);
+        font-size:1.2rem;
+        }
+    
+    .pTitle spam{
+    font-size:1.5rem;
+    }
+
+
 }

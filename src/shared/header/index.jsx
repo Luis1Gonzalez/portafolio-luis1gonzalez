@@ -24,6 +24,7 @@ const Header = () => {
         <div className="name col-7 d-flex flex-column align-items-start justify-content-center">
             <p className="pName m-0">Luis A. González R.</p>
             <p className="pTitle m-0"> <spam>&#60;</spam> FrontEnd Developer   <spam>/&#62;</spam></p>
+            
             </div>
       </div>
 
