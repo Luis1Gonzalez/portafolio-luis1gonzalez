@@ -22,8 +22,8 @@ const Header = () => {
         </div>
 
         <div className="name col-7 d-flex flex-column align-items-start justify-content-center">
-            <h4>Luis A. González R.</h4>
-            <h6> <spam>&#60;</spam> FrontEnd Developer   <spam>/&#62;</spam></h6>
+            <p className="pName m-0">Luis A. González R.</p>
+            <p className="pTitle m-0"> <spam>&#60;</spam> FrontEnd Developer   <spam>/&#62;</spam></p>
             </div>
       </div>
 

@@ -1,5 +1,6 @@
 .wrap__header{
     height: auto;
+    font-family: 'Kalam', cursive;
 }
 
 .header__options{
@@ -29,13 +30,23 @@
 
 .letterhead{
     border-bottom:1px solid #ccc;
-    background-color: rgb(127, 146, 253);
+    background-color: rgb(107, 127, 240);
 }
 
 .circle__foto img{
     height:100px;
 }
 
-h6 spam{
+.pName{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.pTitle{
+    font-size:1rem;
+    color:rgb(104, 100, 100);
+    }
+
+.pTitle spam{
 font-size:1.3rem;
 }
