@@ -47,18 +47,18 @@
     font-size:.9rem;
     }
 
-.pTitle spam{
+.pTitle span{
 font-size:1.3rem;
 }
 
 
 
-/* ====================================================================== */
+/* ==================================SM==================================== */
 
 @media (min-width:576px){
 
     .circle__foto img{
-        height:100px;
+        height:120px;
     }
     
     .pName{
@@ -71,9 +71,58 @@ font-size:1.3rem;
         font-size:1.2rem;
         }
     
-    .pTitle spam{
+    .pTitle span{
     font-size:1.5rem;
     }
 
+}
+
+
+/* =================================MD===================================== */
+
+@media (min-width:768px){
+
+    .circle__foto img{
+        height:150px;
+    }
+    
+    .pName{
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+    
+    .pTitle{
+        color:rgb(104, 100, 100);
+        font-size:1.5rem;
+        }
+    
+    .pTitle span{
+    font-size:1.7rem;
+    }
+
+}
+
+
+/* =================================LG===================================== */
+
+@media (min-width:992px){
+
+    .circle__foto img{
+        height:150px;
+    }
+    
+    .pName{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .pTitle{
+        color:rgb(104, 100, 100);
+        font-size:1.7rem;
+        }
+    
+    .pTitle span{
+    font-size:2rem;
+    }
 
 }
