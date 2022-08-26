@@ -4,7 +4,7 @@
 
 .menu__btn{
     margin:auto;
-    top:21%;
+    top:19%;
     left:90%;
     margin-left:-20px;
 }
@@ -15,8 +15,8 @@
 
 .button{
     z-index: 999;
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     background-color: peachpuff;
     border-radius: 100%;
     transition: all 0.5s ease-in-out;
@@ -26,23 +26,23 @@
 
 .button:before{
     position: absolute;
-    top: 14px;
-    left: 8px;
+    top: 17px;
+    left: 10px;
     content: '';
     width: 15px;
     height: 2px;
-    background: #fff;
+    background: rgb(107, 127, 240);
     transform: rotate(90deg);
 }
 
 .button:after{
     position: absolute;
-    top: 14px;
-    left: 8px;
+    top: 17px;
+    left: 10px;
     content: '';
     width: 15px;
     height: 2px;
-    background: #fff;
+    background: rgb(107, 127, 240);
 }
 
 .nav{
