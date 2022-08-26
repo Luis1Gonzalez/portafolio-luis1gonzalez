@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const Home = () => {
 
-const [read, setRead] = useState('');
+const [read, setRead] = useState('none');
 const [more, setMore] = useState('Leer Mas...')
 
 
