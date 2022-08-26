@@ -1,0 +1,32 @@
+.wrap__home{
+    font-size:.9rem; 
+    }
+
+    .wrap__about{
+        height:255px;   
+    }
+    
+    .extract__about{
+        text-align: justify;
+    }
+    
+    .extract__title{
+        font-size:1.3rem;
+    }
+
+    .btn__leerMas{
+        background-color: #ccc;
+    }
+
+
+    .wrap__projects{
+        height:200px;
+        background:red;
+        width: 100%;
+    }
+    
+
+
+    /* ================================================ */
+
+    
