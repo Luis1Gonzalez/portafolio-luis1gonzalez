@@ -16,7 +16,7 @@
 
     .btn__leerMas{
 
-        background-color: silver;
+        background-color: rgb(192, 192, 192);
         box-shadow: 2px 3px 4px #fff, 3px 4px 5px #000;
     }
 
@@ -34,6 +34,11 @@
         height:200px;
         background:red;
         width: 100%;
+    }
+
+    .tecnology{
+        box-shadow: 1px 1px 4px #6b7ff0;
+        border-radius: 0 0 10px 10px;
     }
 
     .tecnology:nth-child(odd){

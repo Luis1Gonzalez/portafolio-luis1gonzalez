@@ -38,54 +38,57 @@ function changeLeer(){
             
             <p style={{display:`${read}`}}>Mi objetivo es continuar sumando conocimientos y habilidades que me constituyan en un desarrollador Full Stack capaz de desarrollar aplicaciones de alto nivel y así aportar valor a nuestro mundo, dentro de las tecnologías y herramientas que manejo actualmente están:</p>
             
-<div className="icons__tecnologies col-12 d-flex flex-column flex-sm-row flex-wrap justify-content-sm-around" style={{display:`${read}`}}>
+            <div className="wrap__icons" style={{display:`${read}`}}>
+
+<div className="icons__tecnologies d-flex flex-column flex-sm-row flex-wrap justify-content-sm-around">
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <ImHtmlFive className='icon col-3' />
-    <div>HTML5</div>
+    <div className="fw-bold">HTML5</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiCss3 className='icon col-3' />
-    <div>CSS3</div>
+    <div className="fw-bold">CSS3</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiJavascript className='icon col-3' />
-    <div>JavaScript</div>
+    <div className="fw-bold">JavaScript</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiReact className='icon col-3' />
-    <div>REACT JS</div>
+    <div className="fw-bold">REACT JS</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiBootstrap className='icon col-3' />
-    <div>BOOTSTRAP</div>
+    <div className="fw-bold">BOOTSTRAP</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <FaSass className='icon col-3' />
-    <div>SASS</div>
+    <div className="fw-bold">SASS</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <DiGit className='icon col-3' />
-    <div>GIT</div>
+    <div className="fw-bold">GIT</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <BsGithub className='icon col-3' />
-    <div>GITHUB</div>
+    <div className="fw-bold">GITHUB</div>
     </div>
 
   <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <FaSourcetree className='icon col-3' />
-    <div>SOURCETREE</div>
+    <div className="fw-bold">SOURCETREE</div>
     </div>
 
   </div>  
+  </div>
 
             <div className="wrap__btn__leerMas d-flex justify-content-end">
             <button className='btn__leerMas p-1 rounded border' onClick={changeLeer}>{more}</button>
