@@ -15,8 +15,19 @@
     }
 
     .btn__leerMas{
-        background-color: #ccc;
+
+        background-color: silver;
+        box-shadow: 2px 3px 4px #fff, 3px 4px 5px #000;
     }
+
+    .btn__leerMas:hover{
+        color:#fff;
+        box-shadow: 2px 3px 4px #000;
+    }
+
+ 
+
+
 
 
     .wrap__projects{
@@ -24,6 +35,16 @@
         background:red;
         width: 100%;
     }
+
+    .tecnology:nth-child(odd){
+        background-color: rgb(221, 219, 219);
+    }
+
+    .icon{
+        font-size: 2rem;
+        color:#6b7ff0;
+    }
+
     
 
 
