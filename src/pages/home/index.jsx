@@ -42,47 +42,47 @@ function changeLeer(){
 
 <div className="icons__tecnologies d-flex flex-column flex-sm-row flex-wrap justify-content-sm-around">
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <ImHtmlFive className='icon col-3' />
     <div className="fw-bold">HTML5</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <SiCss3 className='icon col-3' />
     <div className="fw-bold">CSS3</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <SiJavascript className='icon col-3' />
     <div className="fw-bold">JavaScript</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <SiReact className='icon col-3' />
     <div className="fw-bold">REACT JS</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <SiBootstrap className='icon col-3' />
     <div className="fw-bold">BOOTSTRAP</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <FaSass className='icon col-3' />
     <div className="fw-bold">SASS</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <DiGit className='icon col-3' />
     <div className="fw-bold">GIT</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <BsGithub className='icon col-3' />
     <div className="fw-bold">GITHUB</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
+  <div className="tecnology d-flex align-items-center my-2 mx-2 py-1 col-sm-5 col-md-3">
     <FaSourcetree className='icon col-3' />
     <div className="fw-bold">SOURCETREE</div>
     </div>
@@ -90,7 +90,7 @@ function changeLeer(){
   </div>  
   </div>
 
-            <div className="wrap__btn__leerMas d-flex justify-content-end">
+            <div className="wrap__btn__leerMas d-flex justify-content-end mt-4">
             <button className='btn__leerMas p-1 rounded border' onClick={changeLeer}>{more}</button>
             </div>
 
