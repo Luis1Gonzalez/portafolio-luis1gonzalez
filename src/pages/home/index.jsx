@@ -90,7 +90,7 @@ function changeLeer(){
   </div>  
   </div>
 
-            <div className="wrap__btn__leerMas d-flex justify-content-end mt-4">
+            <div className="wrap__btn__leerMas d-flex justify-content-end my-4">
             <button className='btn__leerMas p-1 rounded border' onClick={changeLeer}>{more}</button>
             </div>
 
