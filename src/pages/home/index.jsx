@@ -36,7 +36,7 @@ function changeLeer(){
             <div className="extract__about px-4 py-2">
             <p>Hola, soy Luis, un frontend developer residenciado en Zaragoza, España, de espíritu inquieto y creativo, apasionado por la tecnología en general pero sobre todo por la informática, desde el año 2021 he venido formándome para el desarrollo de aplicaciones webs de manera autodidacta y más recientemente he participado en un Full Stack Bootcamp, donde obtuve un gran cumulo de conocimientos que me han servido de motivación para plantearme proyectos que me han servirán para afianzar los conocimientos adquiridos.</p>
             
-            <p style={{display:`${read}`}}>Mi objetivo es continuar sumando conocimientos y habilidades que me constituyan en un desarrollador Full Stack capaz de desarrollar aplicaciones de alto nivel y así aportar valor a nuestro mundo, dentro de las tecnologías herramientas y metodologías que manejo actualmente están HTML, CSS, JavaScript, REACT JS, BOOTSTRAP, SASS, GIT, GITHUB, SOURCETREE, Metodología BEM.</p>
+            <p style={{display:`${read}`}}>Mi objetivo es continuar sumando conocimientos y habilidades que me constituyan en un desarrollador Full Stack capaz de desarrollar aplicaciones de alto nivel y así aportar valor a nuestro mundo, dentro de las tecnologías y herramientas que manejo actualmente están:</p>
             
 <div className="icons__tecnologies col-12 d-flex flex-column flex-sm-row flex-wrap justify-content-sm-around" style={{display:`${read}`}}>
 
