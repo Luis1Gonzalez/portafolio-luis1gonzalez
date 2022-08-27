@@ -40,6 +40,10 @@
         background-color: rgb(221, 219, 219);
     }
 
+    .tecnology:nth-child(even){
+        border: .5px solid rgb(221, 219, 219);
+    }
+
     .icon{
         font-size: 2rem;
         color:#6b7ff0;
@@ -49,5 +53,9 @@
 
 
     /* ================================================ */
+
+    @media(min-width:600px){
+
+    }
 
     

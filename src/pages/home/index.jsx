@@ -38,49 +38,49 @@ function changeLeer(){
             
             <p style={{display:`${read}`}}>Mi objetivo es continuar sumando conocimientos y habilidades que me constituyan en un desarrollador Full Stack capaz de desarrollar aplicaciones de alto nivel y así aportar valor a nuestro mundo, dentro de las tecnologías herramientas y metodologías que manejo actualmente están HTML, CSS, JavaScript, REACT JS, BOOTSTRAP, SASS, GIT, GITHUB, SOURCETREE, Metodología BEM.</p>
             
-<div className="icons__tecnologies" style={{display:`${read}`}}>
+<div className="icons__tecnologies col-12 d-flex flex-column flex-sm-row flex-wrap justify-content-sm-around" style={{display:`${read}`}}>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <ImHtmlFive className='icon col-3' />
     <div>HTML5</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiCss3 className='icon col-3' />
     <div>CSS3</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiJavascript className='icon col-3' />
     <div>JavaScript</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiReact className='icon col-3' />
     <div>REACT JS</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <SiBootstrap className='icon col-3' />
     <div>BOOTSTRAP</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <FaSass className='icon col-3' />
     <div>SASS</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <DiGit className='icon col-3' />
     <div>GIT</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <BsGithub className='icon col-3' />
     <div>GITHUB</div>
     </div>
 
-  <div className="tecnology d-flex align-items-center my-2 py-1">
+  <div className="tecnology d-flex align-items-center my-2 py-1 col-sm-5">
     <FaSourcetree className='icon col-3' />
     <div>SOURCETREE</div>
     </div>
