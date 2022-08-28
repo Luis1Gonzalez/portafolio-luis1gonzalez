@@ -26,7 +26,7 @@ const About = () => {
       setSize(225);
     }
   }
-console.log(size)
+  
   return (
     <div className="col-12 mx-0 d-flex flex-column align-items-center py-2 px-2" style={{height:`${size}`}}>
       <div className="wrap__about">
