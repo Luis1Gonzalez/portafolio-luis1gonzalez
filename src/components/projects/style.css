@@ -1,3 +1,27 @@
 .wrap__project{
     height:300px;
 }
+
+.card{
+    box-shadow: 0 0 4px #6b7ff0;
+}
+
+.card__title{
+    background:#ccc;
+    border-radius: 5px 5px 0px 0px;
+    font-size:1.3rem;
+}
+
+.card__img{
+    width:100%;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.card__description{
+    text-align: justify;
+}
+
+.linkHref{
+font-size:.8rem;
+text-decoration: none;
+}

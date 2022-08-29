@@ -1,6 +1,7 @@
 import "./style.css";
 import About from "../../components/about";
 import Projects from "../../components/projects";
+import gifWeatherApp from "../../image/gifWeatherApp.gif";
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
         "tecnologies":"HTML, CSS, JavaScript, REACT.",
         "url":"https://weather-1-app.netlify.app",
         "github":"https://github.com/Luis1Gonzalez/weather-app.git",
-        "picture":"../../image/gifWeatherApp.gif"
+        "picture":gifWeatherApp
     },
 
     {
