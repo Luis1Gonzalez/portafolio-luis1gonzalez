@@ -25,3 +25,15 @@
 font-size:.8rem;
 text-decoration: none;
 }
+
+.link-icons{
+    font-size: 1.4rem;
+}
+
+.link-iconsa{
+    color:rgb(88, 88, 226);
+}
+
+.link-iconsb{
+    color:#000;
+}

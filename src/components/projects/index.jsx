@@ -1,6 +1,8 @@
 import "./style.css";
 import { useState } from "react";
 import React from "react";
+import { SiInternetexplorer } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 
 const Projects = (listProjects) => {
   return (
@@ -18,8 +20,16 @@ const Projects = (listProjects) => {
             </p>
             <p className="card__description d-flex m-2">{p.description}</p>
             <p>{p.tecnologies}</p>
-            <a className="linkHref my-2" href={p.url}>https://weather-1-app.netlify.app</a>
-            <a className="linkHref my-2" href={p.github}>https://github.com/Luis1Gonzalez/weather-app.git</a>
+
+            <div className="d-flex">
+              <p className="link-icons link-iconsa mx-3"><SiInternetexplorer /></p>
+            <a className="linkHref my-2" href={p.url}>{p.title}</a>
+            </div>
+
+            <div className="d-flex">
+              <p className="link-icons link-iconsb mx-3"><SiGithub /></p>
+            <a className="linkHref my-2" href={p.github}>{p.title}</a>
+            </div>
           </div>
         ))}
       </div>
