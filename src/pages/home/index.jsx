@@ -2,6 +2,7 @@ import "./style.css";
 import About from "../../components/about";
 import Projects from "../../components/projects";
 import gifWeatherApp from "../../image/gifWeatherApp.gif";
+import laCartelera from "../../image/laCarteleraEs.png"
 
 
 
@@ -24,7 +25,8 @@ const Home = () => {
         "description":"Es un App aplicación para cinefilos, donde se puede ver la cartelera actual y los estrenos, se puede buscar peliculas en especifico y mirar la informacion de esta, tambien se puede obtener los horarios de las proyecciones en los cines cercanos.",
         "tecnologies":"HTML, CSS, JavaScript, REACT, BOOTSTRAP.",
         "url":"https://la-cartelera-es.netlify.app",
-        "github":"https://github.com/Luis1Gonzalez/laCarteleraEs.git"
+        "github":"https://github.com/Luis1Gonzalez/laCarteleraEs.git",
+        "picture":laCartelera
     }
 
 ]
