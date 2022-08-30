@@ -76,7 +76,7 @@ const Projects = (listProjects) => {
               <div className="link-icons link-iconsb my-2"><a href={p.github}><SiGithub /></a></div>
             </div>
             
-            <p className="linkHref my-2 fs-5">{p.title}</p>
+            <p className="linkHref my-2 fs-3">{p.title}</p>
             </div>
           </div>
         ))}
