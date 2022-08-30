@@ -1,10 +1,10 @@
 import "./style.css";
 import About from "../../components/about";
 import Projects from "../../components/projects";
-import gifWeatherApp from "../../image/gifWeatherApp.gif";
-import laCartelera from "../../image/laCarteleraEs.png";
-import barralibre45 from "../../image/barralibre45.png";
-import zuccherosCakes from "../../image/zuccherosCakes.png";
+import fotoWeatherApp from '../../image/fotoWeatherApp.png'
+import laCartelera from "../../image/fotoLaCarteleraEs.png";
+import barralibre45 from "../../image/fotoBarraLibre45.png";
+import zuccherosCakes from "../../image/fotoZuccherosCakes.png";
 
 
 
@@ -18,7 +18,7 @@ const Home = () => {
         "tecnologies":"HTML, CSS, JavaScript y REACT.",
         "url":"https://weather-1-app.netlify.app",
         "github":"https://github.com/Luis1Gonzalez/weather-app.git",
-        "picture":gifWeatherApp
+        "picture":fotoWeatherApp
     },
 
     {
