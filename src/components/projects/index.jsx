@@ -62,7 +62,7 @@ const Projects = (listProjects) => {
 
       <div className="wrap__cards px-4 py-2 d-flex flex-wrap justify-content-around">
         {miProjects.map((p) => (
-          <div className="card mx-2 my-2 p-2 col-sm-5 col-md-3" key={p.idProject}>
+          <div className="card mx-2 my-2 p-2 col-12 col-sm-5 col-md-3" key={p.idProject}>
             {/* <p className="card__title text-center p-2">{p.title}</p> */}
             <p className="card__img rounded d-flex flex-wrap justify-content-center py-2">
               <img src={p.picture} alt="imagen de la app"/>
