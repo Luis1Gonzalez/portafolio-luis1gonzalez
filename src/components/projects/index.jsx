@@ -11,9 +11,9 @@ const Projects = (listProjects) => {
         Mis Proyectos
       </div>
 
-      <div className="wrap__cards px-4 py-2">
+      <div className="wrap__cards px-4 py-2 d-flex flex-wrap justify-content-around">
         {listProjects.listProjects.map((p) => (
-          <div className="card my-2 p-2" key={p.idProject}>
+          <div className="card my-2 p-2 col-sm-9 col-md-6" key={p.idProject}>
             <p className="card__title text-center p-2">{p.title}</p>
             <p className="card__img rounded d-flex flex-wrap justify-content-center py-2">
               <img className="gifWeatherApp w-75" src={p.picture} alt="imagen de la app"/>
