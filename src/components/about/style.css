@@ -1,49 +1,48 @@
-.wrap__home{
-    font-size:.9rem; 
-    }
-    
-    .extract__about{
-        text-align: justify;
-    }
-    
-    .extract__title{
-        font-size:1.3rem;
-    }
+.wrap__home {
+    font-size: .9rem;
+}
 
-    .btn__leerMas{
-color:#6b7ff0;
-        background-color: rgb(192, 192, 192);
-        box-shadow: 2px 3px 4px #6b7ff0, 3px 4px 5px #000;
-    }
+.extract__about {
+    text-align: justify;
+}
 
-    .btn__leerMas:hover{
-        color:#000;
-        box-shadow: 2px 3px 4px #000;
-    }
+.extract__title {
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+    height: 40px;
+}
 
-    .tecnology{
-        box-shadow: 1px 1px 4px #6b7ff0;
-        border-radius: 0 0 10px 10px;
-    }
+.btn__leerMas {
+    color: #6b7ff0;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 2px 3px 4px #6b7ff0, 3px 4px 5px #000;
+}
 
-    .tecnology:nth-child(odd){
-        background-color: rgb(221, 219, 219);
-    }
+.btn__leerMas:hover {
+    color: #000;
+    box-shadow: 2px 3px 4px #000;
+}
 
-    .tecnology:nth-child(even){
-        border: .5px solid rgb(221, 219, 219);
-    }
+.tecnology {
+    box-shadow: 1px 1px 4px #6b7ff0;
+    border-radius: 0 0 10px 10px;
+}
 
-    .icon{
-        font-size: 2rem;
-        color:#6b7ff0;
-    }
+.tecnology:nth-child(odd) {
+    background-color: rgb(221, 219, 219);
+}
 
-    .wrap__projects{
-        height:200px;
-        background:red;
-        width: 100%;
-    }
-    
+.tecnology:nth-child(even) {
+    border: .5px solid rgb(221, 219, 219);
+}
 
-    
+.icon {
+    font-size: 2rem;
+    color: #6b7ff0;
+}
+
+.wrap__projects {
+    height: 200px;
+    background: red;
+    width: 100%;
+}

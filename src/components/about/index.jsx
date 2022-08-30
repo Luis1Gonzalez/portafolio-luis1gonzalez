@@ -31,7 +31,7 @@ const About = () => {
     <div className="col-12 mx-0 d-flex flex-column align-items-center py-2 px-2" style={{height:`${size}`}}>
       <div className="wrap__about">
         <div className="extract__title col-12 mx-1 d-flex align-items-center py-2">
-          Sobre mi
+          <p className="m-0">Sobre mi</p>
         </div>
         <div className="extract__about px-4 py-2">
           <p>
