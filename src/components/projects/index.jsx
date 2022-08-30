@@ -63,18 +63,14 @@ const Projects = (listProjects) => {
       <div className="wrap__cards px-4 py-2 d-flex flex-wrap justify-content-around">
         {miProjects.map((p) => (
           <div className="card mx-2 my-2 p-2 col-12 col-sm-5 col-md-3" key={p.idProject}>
-            {/* <p className="card__title text-center p-2">{p.title}</p> */}
-            <p className="card__img rounded d-flex flex-wrap justify-content-center py-2">
+            <div className="card__img rounded d-flex flex-wrap justify-content-center py-2"><a href={p.url}>
               <img src={p.picture} alt="imagen de la app"/>
-            </p>
-            {/* <p className="card__description d-flex m-2">{p.description}</p>
-            <p>{p.tecnologies}</p> */}
+              </a></div>
 
-<div className="d-flex align-items-center justify-content-around">  
-            <div className="d-flex flex-column justify-content-around">
-              <div className="link-icons link-iconsa my-1"><a href={p.url}><SiInternetexplorer /></a></div>
-              <div className="link-icons link-iconsb my-2"><a href={p.github}><SiGithub /></a></div>
-            </div>
+<div className=" wrap__git d-flex align-items-center justify-content-around">  
+            
+              <div className="link-icons my-2 text-center"><a href={p.github}><SiGithub /></a></div>
+            
             
             <p className="linkHref my-2 fs-2">{p.title}</p>
             </div>
