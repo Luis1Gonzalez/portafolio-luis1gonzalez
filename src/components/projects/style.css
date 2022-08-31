@@ -10,12 +10,10 @@
 
 .card{
     box-shadow: 0 0 4px #6b7ff0;
-    height:245px;
 }
 
 .card__img{
     width:100%;
-    min-height:180px;
     box-shadow: 0 0 4px #ccc;
 }
 
