@@ -1,6 +1,6 @@
 import './style.css';
 import { useParams } from "react-router-dom";
-import detailWeatherApp from "../../image/detailWeatherApp.png"
+import detailWeatherApp from "../../image/detailWeatherApp.jpg"
 
 
 import React from 'react'
