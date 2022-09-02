@@ -1,5 +1,6 @@
 import './style.css';
 import { useParams } from "react-router-dom";
+import detailWeatherApp from "../../image/detailWeatherApp.png"
 
 
 import React from 'react'
@@ -14,6 +15,7 @@ let description = ""
 let tecnologies = "";
 let url = "";
 let github = "";
+let detailPicture=""
 
 
 switch (title) {
@@ -26,7 +28,7 @@ description=
 tecnologies= "HTML, CSS, JavaScript y REACT.";
 url= "https://weather-1-app.netlify.app";
 github= "https://github.com/Luis1Gonzalez/weather-app.git";
-
+detailPicture=detailWeatherApp
 
 break;
 
@@ -75,6 +77,10 @@ case 'LaCartelera.es':
 
 <div className='wrap__tittle my-2 bg-dark'>
     <h3>{tittle}</h3>
+    </div>
+
+    <div className="wrap__detailImg">
+        <img src={detailPicture} alt="imagen de la App" />
     </div>
 
 <div className='wrap__description my-2 bg-warning'>

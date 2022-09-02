@@ -1,3 +1,12 @@
 .wrap__details{
-    
+background-color: pink;
+}
+
+.wrap__detailImg{
+    width:100%;
+    background-color: #ccc;
+}
+
+.wrap__detailImg img{
+    width:100%;
 }
