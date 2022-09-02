@@ -75,7 +75,7 @@ case 'LaCartelera.es':
 
         <div className="wrap__details d-flex flex-column flex-wrap col-12 mx-0 py-2 px-2">
 
-<div className='wrap__tittle my-2 bg-dark'>
+<div className='wrap__tittle my-2 bg-dark w-100'>
     <h3>{tittle}</h3>
     </div>
 
@@ -83,7 +83,7 @@ case 'LaCartelera.es':
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
-<div className='wrap__description my-2 bg-warning d-flex flex-wrap'>
+<div className='wrap__description my-2 bg-warning d-flex flex-wrap w-100'>
     <p>{description}</p>
     </div>
 
