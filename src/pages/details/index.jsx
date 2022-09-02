@@ -1,6 +1,6 @@
 import './style.css';
 import { useParams } from "react-router-dom";
-import detailWeatherApp from "../../image/detailWeatherApp.jpg"
+import detailWeatherApp from "../../image/detailWeatherApp.png"
 
 
 import React from 'react'
@@ -83,7 +83,7 @@ case 'LaCartelera.es':
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
-<div className='wrap__description my-2 bg-warning'>
+<div className='wrap__description my-2 bg-warning d-flex flex-wrap'>
     <p>{description}</p>
     </div>
 
