@@ -1,13 +1,13 @@
 import './style.css';
 import { useParams } from "react-router-dom";
-import useProjects from '../../data/pojects.hooks';
+
 
 import React from 'react'
 
 const Details = () => {
-    const miProjects = useProjects({});
+
 const { title } = useParams();
-const nuevo = miProjects[0];
+
 
 let tittle = "";
 let description = ""
@@ -43,7 +43,7 @@ case 'LaCartelera.es':
 
     case 'Barra Libre 45':
 
-        title= "Barra Libre 45";
+        tittle= "Barra Libre 45";
         description=
           "Barra Libre 45 es una App donde a través del consumo del API de .thecocktaildb se muestra fichas de cocteles junto a sus ingredientes y forma de preparación, en la app se puede pasar a través de las páginas para encontrar algún coctel que se desee o se puede buscar por su nombre.";
         tecnologies= "HTML, CSS, JavaScript, REACT, BOOTSTRAPy SASS.";
