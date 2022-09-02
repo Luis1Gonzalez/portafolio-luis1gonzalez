@@ -71,7 +71,7 @@ case 'LaCartelera.es':
 
   return (
 
-        <div className="  col-12 mx-0 py-2 px-2">
+        <div className="wrap__details d-flex flex-column flex-wrap col-12 mx-0 py-2 px-2">
 
 <div className='wrap__tittle my-2 bg-dark'>
     <h3>{tittle}</h3>
