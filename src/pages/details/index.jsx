@@ -1,7 +1,7 @@
 import './style.css';
 import { useParams } from "react-router-dom";
-import detailWeatherApp from "../../image/detailWeatherApp.png"
-import fondoImg from "../../image/fondoImg.jpg"
+import detailWeatherApp from "../../image/detailsWeatherApp1.png";
+import detailWeatherApp2 from "../../image/detailsWeatherApp2.png";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -23,6 +23,7 @@ let tecnologies = "";
 let url = "";
 let github = "";
 let detailPicture="";
+let detailPicture2="";
 let tecIcons1="";
 let tecIcons2="";
 let tecIcons3="";
@@ -48,6 +49,7 @@ tecIcons6=<></>;
 url= "https://weather-1-app.netlify.app";
 github= "https://github.com/Luis1Gonzalez/weather-app.git";
 detailPicture=detailWeatherApp
+detailPicture2=detailWeatherApp2
 
 break;
 
@@ -116,12 +118,16 @@ tecIcons6=<></>;
     <h2 className='mb-0'>{tittle}</h2>
     </div>
 
-    <div className="wrap__detailImg my-1">
+    <div className="wrap__detailImg mb-3 my-1">
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
 <div className='wrap__description my-1 d-flex flex-wrap w-100'>
     <p>{description}</p>
+    </div>
+
+    <div className="wrap__detailImg2 mb-3 my-1">
+        <img src={detailPicture2} alt="imagen de la App" />
     </div>
 
 <div className='wrap__tecnologies my-1 w-100'>
@@ -137,11 +143,11 @@ tecIcons6=<></>;
     <div className="iconSass mx-2">{tecIcons6 ? tecIcons6 : ""}</div>
 </div>
 
-<div className='wrap__web my-2 w-100'>
+<div className='wrap__web my-2 w-100 d-flex justify-content-end pe-3'>
     <p><a href={url}>{tittle}</a></p>
     </div>
 
-<div className='wrap__github my-2 w-100'>
+<div className='wrap__github my-2 w-100 d-flex justify-content-end pe-3'>
     <p><a href={github}>GitHub</a></p>
     </div>
 
