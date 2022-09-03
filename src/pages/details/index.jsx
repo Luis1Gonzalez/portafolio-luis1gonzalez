@@ -1,6 +1,7 @@
 import './style.css';
 import { useParams } from "react-router-dom";
 import detailWeatherApp from "../../image/detailWeatherApp.png"
+import fondoImg from "../../image/fondoImg.jpg"
 
 
 import React from 'react'
@@ -75,27 +76,27 @@ case 'LaCartelera.es':
 
         <div className="wrap__details d-flex flex-column flex-wrap col-12 mx-0 py-2 px-2">
 
-<div className='wrap__tittle my-2 bg-dark w-100'>
-    <h3>{tittle}</h3>
+<div className='wrap__tittle my-2 text-center w-100 p-2 my-2'>
+    <h2 className='mb-0'>{tittle}</h2>
     </div>
 
-    <div className="wrap__detailImg">
+    <div className="wrap__detailImg my-1">
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
-<div className='wrap__description my-2 bg-warning d-flex flex-wrap w-100'>
+<div className='wrap__description my-2 d-flex flex-wrap w-100'>
     <p>{description}</p>
     </div>
 
-<div className='tecnologies my-2 bg-success'>
+<div className='wrap__tecnologies my-2 bg-success w-100'>
     <p>{tecnologies}</p>
     </div>
 
-<div className='wrap__github my-2 bg-primary'>
+<div className='wrap__github my-2 bg-primary w-100'>
     <p>{url}</p>
     </div>
 
-<div className='wrap__github my-2 bg-secondary'>
+<div className='wrap__github my-2 bg-secondary w-100'>
     <p>{github}</p>
     </div>
 

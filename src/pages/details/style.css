@@ -1,12 +1,18 @@
 .wrap__details{
-background-color: pink;
+
 }
 
+.wrap__tittle{
+    font-family: 'Kalam', cursive;
+}
 .wrap__detailImg{
     width:100%;
-    background-color: #ccc;
 }
 
 .wrap__detailImg img{
     width:100%;
+}
+
+.wrap__description{
+    text-align:justify;
 }
