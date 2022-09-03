@@ -16,3 +16,53 @@
 .wrap__description{
     text-align:justify;
 }
+
+.wrap__tecnologies{
+    text-align:justify; 
+}
+
+.wrap__tecIcons{
+    font-size:2rem
+}
+
+.iconHtml{
+    color:#f06529;
+}
+
+.iconCss{
+    color:#2965f1;
+}
+
+.iconJs{
+    color:#f0db4f;
+}
+
+.iconReact{
+    color:#61dbfb;
+}
+
+.iconBootstrap{
+    color:#602c50;
+}
+
+.iconSass{
+    color:#cd6799;
+}
+
+.wrap__web{
+    font-size: 1.2rem;
+}
+
+.wrap__web a{
+    text-decoration:none;
+    font-style: italic;
+}
+
+.wrap__github{
+    font-size: 1.2rem;
+}
+
+.wrap__github a{
+    text-decoration:none;
+    font-style: italic;
+}
