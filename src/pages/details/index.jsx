@@ -14,6 +14,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 import React from 'react'
@@ -163,7 +164,12 @@ tecIcons6=<></>;
     <p><a href={github}>GitHub</a></p>
     </div>
 
+    <button className='btn btn__back border mb-3'><Link className="back" to = '/'>Volver</Link></button>
+
     </div>
+
+
+
   );
 
   
