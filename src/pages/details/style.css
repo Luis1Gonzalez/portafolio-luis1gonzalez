@@ -5,8 +5,9 @@
 .wrap__tittle{
     font-family: 'Kalam', cursive;
 }
+
 .wrap__detailImg{
-    width:100%;
+    width:85%;
     height:250px;
     box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
     border-radius:5px;
@@ -21,7 +22,7 @@
 }
 
 .wrap__detailImg2{
-    width:100%;
+    width:85%;
     box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
     border-radius:5px;
     height:200px;
