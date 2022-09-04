@@ -4,6 +4,8 @@ import detailWeatherApp from "../../image/detailsWeatherApp1.png";
 import detailWeatherApp2 from "../../image/detailsWeatherApp2.png";
 import detailLaCarteleraEs from "../../image/detailsLaCarteleraEs.png";
 import detailLaCarteleraEs2 from "../../image/detailsLaCarteleraEs2.png";
+import detailLaBarraLibre45 from "../../image/detailsLaBarraLibre45.png";
+import detailLaBarraLibre452 from "../../image/detailsLaBarraLibre452.png";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -88,6 +90,8 @@ tecIcons5=<SiBootstrap />;
 tecIcons6=<FaSass />;
         url= "https://barra-libre-45.netlify.app/";
         github= "https://github.com/Luis1Gonzalez/barra-libre-45";
+        detailPicture=detailLaBarraLibre45
+        detailPicture2=detailLaBarraLibre452
 
     break;
 
@@ -96,13 +100,13 @@ tecIcons6=<FaSass />;
 
         tittle= "ZuccherosCakes";
         description=
-          "La página desarrollada para la empresa de repostería Zucheros Cake ubicada en Santiago de Chile, es de tipo informativa, muestra lo mejor de su trabajo y sus productos más recientes, al igual que ofrece la información de contacto.";
-        tecnologies= "HTML, CSS y BOOTSTRAP";
+          "Esta página fue desarrollada para la empresa de reposteria ZuccherosCakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.";
+        tecnologies= "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes.";
         tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<></>;
 tecIcons4=<></>;
-tecIcons5=<></>;
+tecIcons5=<SiBootstrap />;
 tecIcons6=<></>;
         url= "https://zuccheroscakes.netlify.app/index.html";
         github= "https://github.com/Luis1Gonzalez/zuccheroscakes";
@@ -139,12 +143,12 @@ tecIcons6=<></>;
     </div>
 
 <div className='wrap__tecIcons d-flex justify-content-start'>
-    <div className="iconHtml mx-2">{tecIcons1 ? tecIcons1 : ""}</div>
-    <div className="iconCss mx-2">{tecIcons2 ? tecIcons2 : ""}</div>
-    <div className="iconJs mx-2">{tecIcons3 ? tecIcons3 : ""}</div>
-    <div className="iconReact mx-2">{tecIcons4 ? tecIcons4 : ""}</div>
-    <div className="iconBootstrap mx-2">{tecIcons5 ? tecIcons5 : ""}</div>
-    <div className="iconSass mx-2">{tecIcons6 ? tecIcons6 : ""}</div>
+    <div className="tIcons iconHtml mx-2">{tecIcons1 ? tecIcons1 : ""}</div>
+    <div className="tIcons icons iconCss mx-2">{tecIcons2 ? tecIcons2 : ""}</div>
+    <div className="tIcons iconJs mx-2">{tecIcons3 ? tecIcons3 : ""}</div>
+    <div className="tIcons iconReact mx-2">{tecIcons4 ? tecIcons4 : ""}</div>
+    <div className="tIcons iconBootstrap mx-2">{tecIcons5 ? tecIcons5 : ""}</div>
+    <div className="tIcons iconSass mx-2">{tecIcons6 ? tecIcons6 : ""}</div>
 </div>
 
 <div className='wrap__web my-2 w-100 d-flex justify-content-end pe-3'>
