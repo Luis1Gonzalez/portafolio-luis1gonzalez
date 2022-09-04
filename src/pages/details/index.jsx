@@ -2,6 +2,8 @@ import './style.css';
 import { useParams } from "react-router-dom";
 import detailWeatherApp from "../../image/detailsWeatherApp1.png";
 import detailWeatherApp2 from "../../image/detailsWeatherApp2.png";
+import detailLaCarteleraEs from "../../image/detailsLaCarteleraEs.png";
+import detailLaCarteleraEs2 from "../../image/detailsLaCarteleraEs2.png";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -67,6 +69,8 @@ tecIcons5=<SiBootstrap />;
 tecIcons6=<></>;
     url= "https://la-cartelera-es.netlify.app";
     github= "https://github.com/Luis1Gonzalez/laCarteleraEs.git";
+    detailPicture=detailLaCarteleraEs
+detailPicture2=detailLaCarteleraEs2
 
     break;
 
@@ -112,25 +116,25 @@ tecIcons6=<></>;
 
   return (
 
-        <div className="wrap__details d-flex flex-column flex-wrap col-12 mx-0 py-2 px-2">
+        <div className="wrap__details d-flex flex-column flex-lg-row flex-wrap col-12 mx-0 py-2 px-2 align-items-center">
 
 <div className='wrap__tittle my-2 text-center w-100 p-2 my-2'>
     <h2 className='mb-0'>{tittle}</h2>
     </div>
 
-    <div className="wrap__detailImg mb-3 my-1">
+    <div className="wrap__detailImg mb-3 my-1 d-flex">
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
-<div className='wrap__description my-1 d-flex flex-wrap w-100'>
+<div className='wrap__description my-1 d-flex flex-wrap'>
     <p>{description}</p>
     </div>
 
-    <div className="wrap__detailImg2 mb-3 my-1">
+    <div className="wrap__detailImg2 mb-3 my-1 d-flex">
         <img src={detailPicture2} alt="imagen de la App" />
     </div>
 
-<div className='wrap__tecnologies my-1 w-100'>
+<div className='wrap__tecnologies my-1'>
     <p>{tecnologies}</p>
     </div>
 

@@ -7,22 +7,25 @@
 }
 .wrap__detailImg{
     width:100%;
-    height:100%;
+    height:250px;
     box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
     border-radius:5px;
+    padding:10px 0;
 }
 
 .wrap__detailImg img{
     width:100%;
     height:100%;
     border-radius:5px;
+    
 }
 
 .wrap__detailImg2{
     width:100%;
     box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
     border-radius:5px;
-    height:200px
+    height:200px;
+    padding:10px;
 }
 
 .wrap__detailImg2 img{
@@ -84,3 +87,55 @@
     text-decoration:none;
     font-style: italic;
 }
+
+/* =========================sm========================== */
+
+@media (min-width:576px){
+
+.wrap__detailImg{
+    width:75%;    
+}
+
+.wrap__detailImg2{
+    width:75%;
+    height:300px
+}
+
+}
+
+/* =========================md========================== */
+
+@media (min-width:768px){
+
+    .wrap__tecIcons{
+        font-size:3rem
+    }
+    
+    }
+
+
+    /* =========================lg========================== */
+
+@media (min-width:768px){
+
+    .wrap__detailImg{
+        width:47%;
+        margin: 0 10px;
+    }
+
+    .wrap__description{
+width:47%;
+margin: 0 10px;
+    }
+
+    .wrap__detailImg2{
+        width:47%;
+        margin: 0 10px;
+    }
+
+    .wrap__tecnologies{
+        width:47%;
+        margin: 0 10px;
+            }
+    
+    }
