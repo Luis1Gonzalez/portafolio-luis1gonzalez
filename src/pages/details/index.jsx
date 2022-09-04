@@ -6,6 +6,8 @@ import detailLaCarteleraEs from "../../image/detailsLaCarteleraEs.png";
 import detailLaCarteleraEs2 from "../../image/detailsLaCarteleraEs2.png";
 import detailLaBarraLibre45 from "../../image/detailsLaBarraLibre45.png";
 import detailLaBarraLibre452 from "../../image/detailsLaBarraLibre452.png";
+import detailZuccherosCakes from "../../image/detailsZuccherosCakes.png";
+import detailZuccherosCakes2 from "../../image/detailsZuccherosCakes2.png";
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -98,9 +100,9 @@ tecIcons6=<FaSass />;
     
     case 'ZuccherosCakes':
 
-        tittle= "ZuccherosCakes";
+        tittle= "Zuccheros Cakes";
         description=
-          "Esta página fue desarrollada para la empresa de reposteria ZuccherosCakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.";
+          "Esta página fue desarrollada para la empresa de reposteria Zuccheros Cakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.";
         tecnologies= "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes.";
         tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
@@ -110,6 +112,8 @@ tecIcons5=<SiBootstrap />;
 tecIcons6=<></>;
         url= "https://zuccheroscakes.netlify.app/index.html";
         github= "https://github.com/Luis1Gonzalez/zuccheroscakes";
+        detailPicture=detailZuccherosCakes
+        detailPicture2=detailZuccherosCakes2
 
     break;
 
