@@ -59,8 +59,8 @@ case 'LaCartelera.es':
 
     tittle= "LaCartelera.es";
     description=
-      "Es un App aplicación para cinefilos, donde se puede ver la cartelera actual y los estrenos, se puede buscar peliculas en especifico y mirar la informacion de esta, tambien se puede obtener los horarios de las proyecciones en los cines cercanos.";
-    tecnologies= "HTML, CSS, JavaScript, REACT y BOOTSTRAP.";
+      "LaCarteleraEs Es una App para cinéfilos, donde se puede ver la cartelera actual y los próximos estrenos, igualmente se puede buscar películas en específico y mirar la informacion de esta tal como su año de publicación, presupuesto, recaudación, director, casas productoras, duración, tráilers y una sinopsis todo esto en castellano o inglés. Otra funcionalidad de la aplicación es poder acceder a los horarios de las proyecciones en los cines en un radio de 30km.";
+    tecnologies= "Para esta App se obtienen los datos actualizados de la API de The Movie Data Base (TMDB) que provee los datos relativos a cada película tanto en cartelera como los estrenos y de la API de International Show Times (API de pago) se obtiene la cartelera de los cines cercanos a la ubicación del dispositivo utilizado para la búsqueda. Por otra parte cabe destacar que esta App cuenta con multi tema y multi lenguaje.";
     tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<SiJavascript />;
@@ -116,7 +116,7 @@ tecIcons6=<></>;
 
   return (
 
-        <div className="wrap__details d-flex flex-column flex-lg-row flex-wrap col-12 mx-0 py-2 px-2 align-items-center">
+        <div className="wrap__details d-flex flex-column flex-md-row flex-wrap col-12 mx-0 py-2 px-2 align-items-center">
 
 <div className='wrap__tittle my-2 text-center w-100 p-2 my-2'>
     <h2 className='mb-0'>{tittle}</h2>
@@ -126,7 +126,7 @@ tecIcons6=<></>;
         <img src={detailPicture} alt="imagen de la App" />
     </div>
 
-<div className='wrap__description my-1 d-flex flex-wrap'>
+<div className='wrap__description my-1 d-flex flex-wrap py-2 px-4'>
     <p>{description}</p>
     </div>
 
@@ -134,7 +134,7 @@ tecIcons6=<></>;
         <img src={detailPicture2} alt="imagen de la App" />
     </div>
 
-<div className='wrap__tecnologies my-1'>
+<div className='wrap__tecnologies my-1 py-2 px-4'>
     <p>{tecnologies}</p>
     </div>
 
