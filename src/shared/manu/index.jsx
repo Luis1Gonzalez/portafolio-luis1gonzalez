@@ -5,6 +5,7 @@ import { ImLinkedin } from "react-icons/im";
 import { GrTwitter } from "react-icons/gr";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiFolderDownloadFill } from "react-icons/ri";
+import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
 
 import React from "react";
 
@@ -38,7 +39,7 @@ const Menu = () => {
 
 <div className="wrap__social download d-flex align-items-center">
   <span className="w-25 text-center"><RiFolderDownloadFill /></span>
-  <a className="w-75 text-start" href="#">Descarga mi CV</a>
+  <a href={cvLuisGonzalez} className="w-75 text-start" download={cvLuisGonzalez}>Descarga mi CV</a>
   </div>
 
 
