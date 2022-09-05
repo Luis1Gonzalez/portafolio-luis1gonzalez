@@ -23,20 +23,20 @@ const Menu = () => {
 
 <div className="wrap__social linkedin d-flex align-items-center">
 <span className="w-25 text-center"><ImLinkedin /></span>
-  <a className="w-75 text-start" href="www.linkedin.com/in/luis1gonzalez">www.linkedin.com</a>
+  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez">www.linkedin.com</a>
   </div>
 
 <div className="wrap__social twitter d-flex align-items-center">
   <span className="w-25 text-center"><GrTwitter /></span>
-  <a className="w-75 text-start" href="#">Twitter</a>
+  <a className="w-75 text-start" href="https://twitter.com/luisgonzalez246">@luisgonzalez246</a>
   </div>
 
-<div className="wrap__social cel d-flex align-items-center">
+<div className="wrap__social whatsapp d-flex align-items-center">
   <span className="w-25 text-center"><IoLogoWhatsapp /></span>
   <a className="w-75 text-start" href="https://wa.me/34645081201">Whatsapp</a>
   </div>
 
-<div className="wrap__social cv d-flex align-items-center">
+<div className="wrap__social download d-flex align-items-center">
   <span className="w-25 text-center"><RiFolderDownloadFill /></span>
   <a className="w-75 text-start" href="#">Descarga mi CV</a>
   </div>
