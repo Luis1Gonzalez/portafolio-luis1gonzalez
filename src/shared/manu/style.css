@@ -1,12 +1,6 @@
-.menu__btn, .button, .nav{
-    position:absolute
-}
-
 .menu__btn{
-    margin:auto;
-    top:21%;
-    left:90%;
-    margin-left:-20px;
+    width:100%;
+    height:35px;
 }
 
 #toggle{
@@ -14,65 +8,45 @@
 }
 
 .button{
-    z-index: 999;
     width:35px;
     height: 35px;
-    background-color: peachpuff;
     border-radius: 100%;
     transition: all 0.5s ease-in-out;
     box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
-}
-
-.button:before{
-    position: absolute;
-    top: 17px;
-    left: 10px;
-    content: '';
-    width: 15px;
-    height: 2px;
-    background: rgb(107, 127, 240);
-    transform: rotate(90deg);
-}
-
-.button:after{
-    position: absolute;
-    top: 17px;
-    left: 10px;
-    content: '';
-    width: 15px;
-    height: 2px;
-    background: rgb(107, 127, 240);
+     color:rgb(7, 7, 7);
+     font-size:1.5rem;
 }
 
 .nav{
     transform: translateY(-10%);
     opacity: 0;
-    top:13px;
-    left:-110px;
     transition: all 0.5s ease-in-out;
     background-color: #fff;
-    width: 150px;
-    border-radius: 1px;
+    width: 295px;
+    border-radius: 5px;
     transform: translateY(0%);
     box-shadow: 2px 3px 10px 0 rgba(0,0,0,0.1);
-    padding-left: 10px;
+    padding-left: 15px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    margin-left:10px;
 }
 
 .nav a{
     text-align: center;
     display: block;
-    margin: 5px 0;
-    color:#f28482;
+    margin: 7px 0;
+    color:rgb(107, 127, 240);
     text-decoration: none;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     transition: all 300ms;
+    font-size:.9rem;
 }
 
 .nav a:hover{
-    color:red;
+    color:rgb(255, 0, 0);
+    font-weight: bold;
 }
 
 #toggle:checked ~ .nav{
@@ -80,15 +54,11 @@
     transform: translateY(10%);
 }
 
-#toggle:checked ~ .button{
-    transform: rotate(135deg);
-    box-shadow: 0 0 0 0 transparent;
+.wrap__social{
+    width:100%;
 }
 
-@media (min-width:768px){
-
-    .menu__btn{
-        top:24.2%;
-    }
-
+.wrap__social span{
+    font: size 1.3rem;
 }
+
