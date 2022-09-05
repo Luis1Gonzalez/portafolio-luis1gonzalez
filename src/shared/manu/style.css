@@ -62,30 +62,30 @@
 
 .wrap__social span{
     font: size 2rem;
-    font-size:1.5rem
+    font-size:1.5rem;    
 }
 
 .twitter{
     color: #1da1f2;
-    font-size:1.5rem
+    font-size:1.5rem;
 }
 
 .linkedin{
     color:#0e76a8;
-    font-size:1.5rem
+    font-size:1.5rem;
 }
 
 .whatsapp{
   color:#25d366;
-  font-size:1.5rem
+  font-size:1.5rem;
 }
 
 .mail{
     color: #ea4335;
-    font-size:1.5rem
+    font-size:1.5rem;
 }
 
 .download{
-    color: #000;
-    font-size:1.5rem
+    color: rgb(92, 91, 91);
+    font-size:1.5rem;
 }

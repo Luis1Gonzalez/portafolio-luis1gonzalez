@@ -14,7 +14,7 @@ const Menu = () => {
       <input type="checkbox" id="toggle" />
       <label htmlFor="toggle" className="button d-flex justify-content-center align-items-center mx-3"><RiContactsBookFill /></label>
 
-      <div className="nav">
+      <div className="nav py-2">
 
 <div className="wrap__social mail d-flex align-items-center">
   <span className="w-25 text-center"><MdMarkEmailRead /></span>
@@ -23,16 +23,16 @@ const Menu = () => {
 
 <div className="wrap__social linkedin d-flex align-items-center">
 <span className="w-25 text-center"><ImLinkedin /></span>
-  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez">www.linkedin.com</a>
+  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez" target="_blank">www.linkedin.com</a>
   </div>
 
 <div className="wrap__social twitter d-flex align-items-center">
   <span className="w-25 text-center"><GrTwitter /></span>
-  <a className="w-75 text-start" href="https://twitter.com/luisgonzalez246">@luisgonzalez246</a>
+  <a className="w-75 text-start" href="https://twitter.com/luisgonzalez246" target="_blank">@luisgonzalez246</a>
   </div>
 
 <div className="wrap__social whatsapp d-flex align-items-center">
-  <span className="w-25 text-center"><IoLogoWhatsapp /></span>
+  <span className="w-25 text-center"><IoLogoWhatsapp className="wind" /></span>
   <a className="w-75 text-start" href="https://wa.me/34645081201">Whatsapp</a>
   </div>
 
