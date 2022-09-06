@@ -19,9 +19,9 @@
 .option__theme{
     width: 15px;
     height:15px;
-    background-color: #000;
     border-radius:50px;
     margin: 0 3px;
+    border: 1px solid #000
 }
 
 .option_lenguage{
