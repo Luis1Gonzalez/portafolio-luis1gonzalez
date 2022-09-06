@@ -10,6 +10,7 @@ import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
 import React from "react";
 
 const Menu = () => {
+
   return (
     <div className="menu__btn">
       <input type="checkbox" id="toggle" />

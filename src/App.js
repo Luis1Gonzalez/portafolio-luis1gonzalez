@@ -15,7 +15,6 @@ color:${(props) => props.theme.fontColor};
 function App() {
 
   const [isChecked, setIsChecked] = useState(true);
-
   const [colorS, setColorS] = useState("#444");
 
   const handleOnChange = () => {

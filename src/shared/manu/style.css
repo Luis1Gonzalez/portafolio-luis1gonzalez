@@ -14,7 +14,7 @@
     transition: all 0.5s ease-in-out;
     box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
-     color:rgb(7, 7, 7);
+     color:#444);
      font-size:1.5rem;
 }
 
