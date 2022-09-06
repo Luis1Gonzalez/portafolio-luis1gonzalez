@@ -157,11 +157,11 @@ tecIcons6=<></>;
 </div>
 
 <div className='wrap__web my-2 w-100 d-flex justify-content-end pe-3'>
-    <p><a href={url}  target="_blank">{tittle}</a></p>
+    <p><a href={url}  target="_blank" rel="noopener noreferrer">{tittle}</a></p>
     </div>
 
 <div className='wrap__github my-2 w-100 d-flex justify-content-end pe-3'>
-    <p><a href={github}  target="_blank">GitHub</a></p>
+    <p><a href={github}  target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </div>
 
     <button className='btn btn__back border mb-3'><Link className="back" to = '/'>Volver</Link></button>

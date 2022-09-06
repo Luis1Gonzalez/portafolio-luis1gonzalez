@@ -24,17 +24,17 @@ const Menu = () => {
 
 <div className="wrap__social linkedin d-flex align-items-center">
 <span className="w-25 text-center"><ImLinkedin /></span>
-  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez" target="_blank">www.linkedin.com</a>
+  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez" target="_blank" rel="noopener noreferrer">www.linkedin.com</a>
   </div>
 
 <div className="wrap__social twitter d-flex align-items-center">
   <span className="w-25 text-center"><GrTwitter /></span>
-  <a className="w-75 text-start" href="https://twitter.com/luisgonzalez246" target="_blank">@luisgonzalez246</a>
+  <a className="w-75 text-start" href="https://twitter.com/luisgonzalez246" target="_blank" rel="noopener noreferrer">@luisgonzalez246</a>
   </div>
 
 <div className="wrap__social whatsapp d-flex align-items-center">
   <span className="w-25 text-center"><IoLogoWhatsapp className="wind" /></span>
-  <a className="w-75 text-start" href="https://wa.me/34645081201">Whatsapp</a>
+  <a className="w-75 text-start" href="https://wa.me/34645081201">+34 645081201</a>
   </div>
 
 <div className="wrap__social download d-flex align-items-center">

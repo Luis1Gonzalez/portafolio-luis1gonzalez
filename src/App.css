@@ -3,3 +3,28 @@
     color:rgb(119, 116, 116);
     font-family: 'Roboto Mono', monospace;
 }
+
+.header__options{
+    height:45px;
+}
+
+.options{
+    height:18px;
+    width:65px;
+    background-color: #ccc;
+    border-radius:14px;
+}
+
+.option__theme{
+    width: 15px;
+    height:15px;
+    background-color: #000;
+    border-radius:50px;
+    margin: 0 3px;
+}
+
+.option_lenguage{
+    margin: 0 3px;
+    line-height: 5px;
+    font-size:.7rem;
+}
