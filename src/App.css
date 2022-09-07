@@ -10,7 +10,7 @@
 
 .options{
     height:18px;
-    width:65px;
+    width:75px;
     background-color: #ccc;
     border-radius:14px;
     font-family: 'Kalam', cursive;
@@ -21,11 +21,13 @@
     height:15px;
     border-radius:50px;
     margin: 0 3px;
-    border: 1px solid #000
+    border: 1px solid #000;
+    cursor: pointer;
 }
 
 .option_lenguage{
     margin: 0 3px;
     line-height: 5px;
     font-size:.7rem;
+    cursor: pointer;
 }

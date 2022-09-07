@@ -2,10 +2,12 @@ import "./style.css";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import useProjects from '../../data/pojects.hooks';
+import { useTranslation } from "react-i18next";
 
 const Projects = (listProjects) => {
   const miProjects = useProjects({});
   const navigate = useNavigate();
+  const [t] = useTranslation("global");
 
 
 const nuevo = miProjects[0];
@@ -13,7 +15,7 @@ const nuevo = miProjects[0];
   return (
     <div className="wrap__project  col-12 mx-0 py-2 px-2">
       <div className="project__title col-12 mx-1 d-flex align-items-center py-2">
-        <p className="m-0">Mis Proyectos</p>
+        <p className="m-0">{t("projects.projects")}</p>
       </div>
 
       <div className="wrap__cards px-4 py-2 d-flex flex-wrap justify-content-around">

@@ -9,11 +9,13 @@ import { FaSass } from "react-icons/fa";
 import { DiGit } from "react-icons/di";
 import { BsGithub } from "react-icons/bs";
 import { FaSourcetree } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
   const [read, setRead] = useState("none");
   const [more, setMore] = useState("Leer Mas");
   const [size, setSize] = useState(255)
+  const [t] = useTranslation("global");
 
   function changeLeer() {
     if (read === "block") {
@@ -31,7 +33,7 @@ const About = () => {
     <div className="col-12 mx-0 d-flex flex-column align-items-center py-2 px-2" style={{height:`${size}`}}>
       <div className="wrap__about">
         <div className="extract__title col-12 mx-1 d-flex align-items-center py-2">
-          <p className="m-0">Sobre mi</p>
+          <p className="m-0">{t("about.about")}</p>
         </div>
         <div className="extract__about px-4 py-2">
           <p>
