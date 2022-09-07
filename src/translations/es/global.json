@@ -1,11 +1,31 @@
 {
 
     "about":{
-        "about": "Sobre Mi"       
+        "about": "Sobre Mi" 
     },
 
     "projects":{
-        "projects": "Mis Proyectos"
+        "projects": "Mis Proyectos",
+        "back": "Volver"
+    },
+
+    "menu":{
+        "download": "Descarga mi CV"
+    },
+
+    "details":{
+        "back": "Volver",
+        "descriptionWeatherApp": "WeatherApp es una aplicación responsive que muestra el estado del tiempo en real time, puede ser en local, geolocalizando el dispositivo bajo previa autorización del usuario o mostrando el tiempo de la ciudad ingresada por el usuario en un formulario que tiene dos inputs, uno para ingresar el nombre de la ciudad y el segundo (opcional) para introducir el país debido a que el nombre de la ciudad pudiese estar repetido en alguna otra parte del mundo.",
+        "tecnologiesWeatherApp": "Para el desarrollo de esta App se obtuvieron los datos climatológicos haciendo uso de la API de OPENWEATHER quienes proveen servicios meteorológicos muy amplio tanto en real time como predicciones e históricas. Para el desarrollo de esta aplicación utilicé de HTML, CSS; JavaScript y REACT JS.",
+        
+        "descriptionLaCarteleraEs": "LaCarteleraEs Es una App para cinéfilos, donde se puede ver la cartelera actual y los próximos estrenos, igualmente se puede buscar películas en específico y mirar la informacion de esta tal como su año de publicación, presupuesto, recaudación, director, casas productoras, duración, tráilers y una sinopsis todo esto en castellano e inglés. Otra funcionalidad de la aplicación es poder acceder a los horarios de las proyecciones en los cines en un radio de 30km.",        
+        "tecnologiesLaCarteleraEs": "Para esta App se obtienen los datos actualizados de la API de The Movie Data Base (TMDB) que provee los datos relativos a cada película tanto en cartelera como los estrenos y de la API de International Show Times (API de pago) se obtiene la cartelera de los cines cercanos a la ubicación del dispositivo utilizado para la búsqueda. Por otra parte cabe destacar que esta App cuenta con multi tema y multi lenguaje. Para el desarrollo de esta App se utilizó HTML, CSS, JavaScript, REACT JS y BOOTSTRAP.",
+
+        "descriptionBarraLibre45": "Barra Libre 45 es una App para la preparación de cocteles donde se muestra un listado de 100 bebidas alcohólicas o no alcohólicas, inicialmente ordenadas en cards con una paginación de diez (10) bebidas por página mostrando la imagen de los cocteles y su nombre, en esta página inicial también se encuentra un buscador para filtrar las bebidas por su nombre. Al usuario hace click sobre alguna coctel la aplicación le dará en el detalle de esta bebida, mostrándole la imagen de la bebida, su tipo, su categoría, sus ingredientes y las instrucciones para su preparación.",
+        "tecnologiesBarraLibre45": "Barra Libre 45 obtiene sus datos de la API de THECOCKTAILDB que es una Api gratuita que provee informacion de cocteles y varias formas de hacer peticiones como por ejemplo por nombre, tipo, ingredientes, entre otros y está desarrollada haciendo uso de HTML, CSS, JavaScript, REACT JS, BOOTSTRAP Y SASS.",
+
+        "descriptionZuccherosCakes": "Esta página fue desarrollada para la empresa de reposteria Zuccheros Cakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.",
+        "tecnologiesZuccherosCakes": "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes."
     }
 
 

@@ -15,6 +15,7 @@ import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 
 import React from 'react'
@@ -22,7 +23,7 @@ import React from 'react'
 const Details = () => {
 
 const { title } = useParams();
-
+const [t, i18n] = useTranslation("global");
 
 let tittle = "";
 let description = "";
@@ -44,9 +45,8 @@ switch (title) {
 case 'Weather App':
 
 tittle= "Weather App";
-description=
-  "WeatherApp es una aplicación responsive que muestra el estado del tiempo en real time, sea en local geolocalizando el dispositivo bajo previa autorización del usuario o mostrando el tiempo de la ciudad ingresada por el usuario en un formulario que tiene dos inputs, uno para ingresar el nombre de la ciudad y el segundo (opcional) para introducir el país ya que el nombre de la ciudad pudiese estar repetido en alguna otra parte del mundo."
-tecnologies= "Para el desarrollo de esta App se obtuvieron los datos climatológicos haciendo uso de la API de OPENWEATHER quienes proveen servicios meteorológicos muy amplio tanto en real time como predicciones e históricas. Para el desarrollo de esta aplicación se hizo uso de HTML, CSS; JavaScript y REACT JS.";
+description=t('details.descriptionWeatherApp');
+tecnologies= t('details.tecnologiesWeatherApp');
 tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<SiJavascript />;
@@ -63,9 +63,8 @@ break;
 case 'LaCartelera.es':
 
     tittle= "LaCartelera.es";
-    description=
-      "LaCarteleraEs Es una App para cinéfilos, donde se puede ver la cartelera actual y los próximos estrenos, igualmente se puede buscar películas en específico y mirar la informacion de esta tal como su año de publicación, presupuesto, recaudación, director, casas productoras, duración, tráilers y una sinopsis todo esto en castellano o inglés. Otra funcionalidad de la aplicación es poder acceder a los horarios de las proyecciones en los cines en un radio de 30km.";
-    tecnologies= "Para esta App se obtienen los datos actualizados de la API de The Movie Data Base (TMDB) que provee los datos relativos a cada película tanto en cartelera como los estrenos y de la API de International Show Times (API de pago) se obtiene la cartelera de los cines cercanos a la ubicación del dispositivo utilizado para la búsqueda. Por otra parte cabe destacar que esta App cuenta con multi tema y multi lenguaje. Para el desarrollo de esta App se utilizó HTML, CSS, JavaScript, REACT JS y BOOTSTRAP.";
+    description=t('details.descriptionLaCarteleraEs');
+tecnologies= t('details.tecnologiesLaCarteleraEs');
     tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<SiJavascript />;
@@ -82,9 +81,8 @@ detailPicture2=detailLaCarteleraEs2
     case 'Barra Libre 45':
 
         tittle= "Barra Libre 45";
-        description=
-          "Barra Libre 45 es una App para la preparación de cocteles donde se muestra un listado de 100 bebidas alcohólicas o no alcohólicas inicialmente ordenadas en cards con una paginación de diez (10) bebidas por página mostrando la imagen de los cocteles y su nombre, en esta página inicial también se encuentra un buscador para filtrar las bebidas por su nombre. Al usuario hace click sobre alguna coctel la aplicación le dará en el detalle de esta bebida, mostrándole la imagen de la bebida, su tipo, su categoría, sus ingredientes y las instrucciones para su preparación.";
-        tecnologies= "Barra Libre 45 obtiene sus datos de la API de THECOCKTAILDB que es una Api gratuita que provee informacion de cocteles y varias formas de hacer peticiones como por ejemplo por nombre, tipo, ingredientes, entre otros y está desarrollada haciendo uso de HTML, CSS, JavaScript, REACT JS, BOOTSTRAP Y SASS.";
+        description= t('details.descriptionBarraLibre45');
+        tecnologies= t('details.tecnologiesBarraLibre45');
         tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<SiJavascript />;
@@ -102,9 +100,8 @@ tecIcons6=<FaSass />;
     case 'ZuccherosCakes':
 
         tittle= "Zuccheros Cakes";
-        description=
-          "Esta página fue desarrollada para la empresa de reposteria Zuccheros Cakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.";
-        tecnologies= "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes.";
+        description= t('details.descriptionZuccherosCakes');
+        tecnologies=  t('details.tecnologiesZuccherosCakes');
         tecIcons1=<ImHtmlFive />;
 tecIcons2=<SiCss3 />;
 tecIcons3=<></>;
@@ -164,7 +161,7 @@ tecIcons6=<></>;
     <p><a href={github}  target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </div>
 
-    <button className='btn btn__back border mb-3'><Link className="back" to = '/'>Volver</Link></button>
+    <button className='btn btn__back border mb-3 ms-3'><Link className="back" to = '/'>{t("details.back")}</Link></button>
 
     </div>
 

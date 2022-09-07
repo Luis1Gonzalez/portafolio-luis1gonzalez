@@ -13,22 +13,24 @@ import { useTranslation } from "react-i18next";
 
 const About = () => {
   const [read, setRead] = useState("none");
-  const [more, setMore] = useState("Leer Mas");
+  const [more, setMore] = useState("+");
   const [size, setSize] = useState(255)
-  const [t] = useTranslation("global");
+  const [t, i18n] = useTranslation("global");
 
   function changeLeer() {
     if (read === "block") {
       setRead("none");
-      setMore("Leer Mas");
+      setMore("+");
       setSize(530);
     } else {
       setRead("block");
-      setMore("Leer Menos");
+      setMore("-");
       setSize(225);
     }
   }
   
+
+  console.log(more)
   return (
     <div className="col-12 mx-0 d-flex flex-column align-items-center py-2 px-2" style={{height:`${size}`}}>
       <div className="wrap__about">
@@ -104,9 +106,9 @@ const About = () => {
             </div>
           </div>
 
-          <div className="wrap__btn__leerMas d-flex justify-content-end mt-4">
+          <div className="wrap__btn__leerMas d-flex justify-content-end mt-2">
             <button
-              className="btn__leerMas p-1 rounded border"
+              className="btn__leerMas p-1 d-flex justify-content-center align-items-center"
               onClick={changeLeer}
             >
               {more}

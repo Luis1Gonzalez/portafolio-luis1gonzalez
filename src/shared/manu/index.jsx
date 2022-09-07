@@ -6,10 +6,13 @@ import { GrTwitter } from "react-icons/gr";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiFolderDownloadFill } from "react-icons/ri";
 import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
+import { useTranslation } from "react-i18next";
 
 import React from "react";
 
 const Menu = () => {
+
+  const [t, i18n] = useTranslation("global");
 
   return (
     <div className="menu__btn">
@@ -40,7 +43,7 @@ const Menu = () => {
 
 <div className="wrap__social download d-flex align-items-center">
   <span className="w-25 text-center"><RiFolderDownloadFill /></span>
-  <a href={cvLuisGonzalez} className="w-75 text-start" download={cvLuisGonzalez}>Descarga mi CV</a>
+  <a href={cvLuisGonzalez} className="w-75 text-start" download={cvLuisGonzalez}>{t("menu.download")}</a>
   </div>
 
 

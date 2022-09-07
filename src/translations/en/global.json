@@ -4,7 +4,29 @@
     },
 
     "projects":{
-        "projects": "My Projects"
+        "projects": "My Projects",
+        "back": "Back"
+    },
+
+    "menu":{
+        "download": "Download my CV"
+    },
+
+    "details":{
+        "back": "Back",
+        "descriptionWeatherApp": "WeatherApp is a responsive application that shows the weather in real time, it can be local, geolocating the device under user authorization or showing the weather of the city entered by the user in a form that has two inputs, one to enter the name of the city and the second (optional) to enter the country because the name of the city could be repeated in some other part of the world.",
+        "tecnologiesWeatherApp": "For the development of this App the climatological data was obtained using the OPENWEATHER API who provide very comprehensive weather services both in real time and predictions and historical. For the development of this application I used HTML, CSS; JavaScript and REACT JS.",
+       
+        "descriptionLaCarteleraEs": "For this App, updated data is obtained from the API of The Movie Data Base (TMDB) that provides the data related to each movie, both in theaters and premieres, and from the API of International Show Times (paid API) the movie listings of the theaters near the location of the device used for the search are obtained. On the other hand, it should be noted that this App has multi-theme and multi-language. For the development of this App we used HTML, CSS, JavaScript, REACT JS and BOOTSTRAP.",
+        "tecnologiesLaCarteleraEs": "For this App, updated data is obtained from the API of The Movie Data Base (TMDB) that provides the data related to each movie, both in theaters and premieres, and from the API of International Show Times (paid API) the movie listings of the theaters near the location of the device used for the search are obtained. On the other hand, it should be noted that this App has multi-theme and multi-language. For the development of this App we used HTML, CSS, JavaScript, REACT JS and BOOTSTRAP.",
+
+        "descriptionBarraLibre45": "Barra Libre 45 is an App for the preparation of cocktails where a list of 100 alcoholic or non-alcoholic drinks is shown, initially ordered in cards with a pagination of ten (10) drinks per page showing the image of the cocktails and their name, in this initial page there is also a search engine to filter the drinks by name. When the user clicks on a cocktail, the application will show the details of this drink, showing the image of the drink, its type, its category, its ingredients and the instructions for its preparation.",
+        "tecnologiesBarraLibre45": "Barra Libre 45 gets its data from THECOCKTAILDB API which is a free Api that provides cocktail information and several ways to make requests such as by name, type, ingredients, among others and is developed using HTML, CSS, JavaScript, REACT JS, BOOTSTRAP and SASS.",
+
+        "descriptionZuccherosCakes": "This page was developed for the pastry company Zuccheros Cakes located in Santiago de Chile, is an informative page where the company aims to keep its customers updated by publishing their latest creations and news, as well as their promotions and other information that motivates the consumption of their products, in addition to serving as a direct channel of communication with all those who wish to contact them.",
+        "tecnologiesZuccherosCakes": "In the layout of this page HTML, CSS and BOOTSTRAP were used and the photos of the products used were selected and supplied by the same company as well as comments and customer list."
+
+
     }
 
 }
