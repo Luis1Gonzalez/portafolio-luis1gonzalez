@@ -15,6 +15,9 @@ const Menu = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
+
+<div className="wrap__menu-qr d-flex">
+
     <div className="menu__btn">
       <input type="checkbox" id="toggle" />
       <label htmlFor="toggle" className="button d-flex justify-content-center align-items-center mx-3"><RiContactsBookFill /></label>
@@ -46,8 +49,16 @@ const Menu = () => {
   <a href={cvLuisGonzalez} className="w-75 text-start" download={cvLuisGonzalez}>{t("menu.download")}</a>
   </div>
 
-
+  </div>
       </div>
+
+      <div className="wrap__qr px-3 px-sm-5 d-flex justify-content-end w-50">
+      <img
+        src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fportafolio-luis1gonzalez.netlify.app%2F&chs=180x180&choe=UTF-8&chld=L|2"
+        alt=""
+      ></img>
+    </div>
+
     </div>
   );
 };

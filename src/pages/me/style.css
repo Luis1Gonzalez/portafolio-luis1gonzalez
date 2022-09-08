@@ -1,0 +1,38 @@
+.wrap__me{
+    font-size: 1.7rem;
+    font-family: 'Kalam', cursive;
+}
+
+.wrap__extract{
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+.tecnology {
+    box-shadow: 1px 1px 4px #6b7ff0;
+    border-radius: 0 0 10px 10px;
+}
+
+.tecnology:nth-child(odd) {
+    background-color: rgb(221, 219, 219);
+}
+
+.tecnology:nth-child(even) {
+    border: .5px solid rgb(221, 219, 219);
+}
+
+.icon {
+    font-size: 2rem;
+    color: #6b7ff0;
+}
+
+/* ======================================== */
+
+@media(max-width:576px){
+
+    .wrap__extract{
+        font-size: .8rem;
+    }
+
+}

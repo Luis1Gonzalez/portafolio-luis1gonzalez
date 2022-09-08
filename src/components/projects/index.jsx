@@ -14,7 +14,7 @@ const nuevo = miProjects[0];
 
   return (
     <div className="wrap__project  col-12 mx-0 py-2 px-2">
-      <div className="project__title col-12 mx-1 d-flex align-items-center py-2">
+      <div className="project__title col-12 mx-1 d-flex align-items-center pb-2">
         <p className="m-0">{t("projects.projects")}</p>
       </div>
 

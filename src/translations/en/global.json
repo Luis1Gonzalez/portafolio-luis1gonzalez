@@ -1,6 +1,7 @@
 {
     "about":{
-        "about": "About Me"
+        "about": "About Me",
+        "extract":"Hi, I'm Luis Antonio, a frontEnd developer, currently living in Zaragoza, Spain. I'm passionate about technology in general, especially IT. Since 2021 I have been training as a Web developer and this 2022 I have done a Full Stack Bootcamp where I have acquired a series of knowledge in methodologies, tools and technologies, such as HTM, CSS, JavaScript, React Js, Bootstrap, Sass, BEM methodology, among others, This has allowed me to develop a series of applications among which are a weather application capable of geolocating the user and show the weather in real time, an app that shows the billboard of nearby cinemas, an app with cocktail recipes and a website for a bakery in Santiago de Chile."
     },
 
     "projects":{
@@ -25,8 +26,12 @@
 
         "descriptionZuccherosCakes": "This page was developed for the pastry company Zuccheros Cakes located in Santiago de Chile, is an informative page where the company aims to keep its customers updated by publishing their latest creations and news, as well as their promotions and other information that motivates the consumption of their products, in addition to serving as a direct channel of communication with all those who wish to contact them.",
         "tecnologiesZuccherosCakes": "In the layout of this page HTML, CSS and BOOTSTRAP were used and the photos of the products used were selected and supplied by the same company as well as comments and customer list."
+    },
 
-
-    }
-
+    "me":{
+        "about": "About Me",
+    "me1":"Hello, I am Luis Antonio, Industrial Maintenance Engineer with more than 14 years of work experience in the area of Occupational Risk Prevention and in the execution of projects of various kinds. I consider myself passionate about technology in general, but especially for the IT world.",
+    "me2":"Since 2021 I have been training as a web application developer and this 2022 I have done a Full Stack Bootcamp where I have acquired a series of knowledge in methodologies, tools and technologies related to programming and web development, these new skills have motivated me and have allowed me to make a series of applications among which I have a weather application, able to geolocate the user and show the weather in real time, an app that shows the billboard of nearby cinemas, an app with cocktail recipes and a website for a bakery in Santiago de Chile.",
+    "me3":"My goal is to continue adding knowledge, tools and skills to my background, strengthening myself every day as a Full Stack developer and developing high level applications and through my work contribute value to our society."
+}
 }

@@ -27,24 +27,6 @@
     box-shadow: 2px 3px 4px #000;
 }
 
-.tecnology {
-    box-shadow: 1px 1px 4px #6b7ff0;
-    border-radius: 0 0 10px 10px;
-}
-
-.tecnology:nth-child(odd) {
-    background-color: rgb(221, 219, 219);
-}
-
-.tecnology:nth-child(even) {
-    border: .5px solid rgb(221, 219, 219);
-}
-
-.icon {
-    font-size: 2rem;
-    color: #6b7ff0;
-}
-
 .wrap__projects {
     height: 200px;
     background: red;
