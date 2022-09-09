@@ -9,58 +9,58 @@ h5{
     font-family: 'Kalam', cursive;
 }
 
-.wrap__social{
+.wrap__socialx{
     width:100%;
     font-family: 'Roboto Mono', monospace;
 
 }
 
-.wrap__social span{
+.wrap__socialx span{
     font: size 2rem;
     font-size:1.5rem;    
 }
 
-.twitter{
+.twitterx{
     color: #1da1f2;
     font-size:1.5rem;
 }
 
-.linkedin{
+.linkedinx{
     color:#0e76a8;
     font-size:1.5rem;
 }
 
-.whatsapp{
+.whatsappx{
   color:#25d366;
   font-size:1.5rem;
 }
 
-.mail{
+.mailx{
     color: #ea4335;
     font-size:1.5rem;
 }
 
-.download{
+.downloadx{
     color: rgb(92, 91, 91);
     font-size:1.5rem;
 }
 
-.call{
+.callx{
     color:#2ab85e;
     font-size:1.5rem;
 }
 
-.github{
+.githubx{
     color:#000;
     font-size:1.5rem;
 }
 
-.portfolio{
+.portfoliox{
     color:rgb(107, 127, 240);
     font-size:1.5rem;
 }
 
-a{
+.wrap__socialx a{
     font-size:1rem;
     text-decoration:none;
     color:#000;
