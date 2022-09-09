@@ -33,7 +33,7 @@ const MobileLink = () => {
 
   <div className="wrap__social mail d-flex align-items-center">
   <span className="w-25 text-center"><MdMarkEmailRead /></span>
-  <a className="w-75 text-start" href="mailto:luis1gonzalez@hotmail.com">luis1gonzalez@hotmail.com</a>
+  <a className="w-75 text-start" href="mailto:luis1gonzalez@hotmail.com">Enviarme un Email</a>
   </div>
 
   <div className="wrap__social call d-flex align-items-center my-2 border">
