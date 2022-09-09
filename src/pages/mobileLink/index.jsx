@@ -25,7 +25,6 @@ const MobileLink = () => {
 
       <div className="wrap__socialx">
 
-<hr />
        
       <div className="wrap__socialx portfoliox d-flex align-items-center my-5">
           <span className="w-25 text-center">
@@ -123,34 +122,16 @@ const MobileLink = () => {
             className="w-75 text-start"
             download={cvLuisGonzalez}
           >
-            {t("menu.download")}
+            Descargar mi CV
           </a>
         </div>
 
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
+
+
+
+
+
     </div>
   );
 };
