@@ -32,7 +32,7 @@ const MobileLink = () => {
             <CgWebsite />
           </span>
           <a
-            className="w-75 text-start bg-success"
+            className="w-75 text-start"
             href="https://portafolio-luis1gonzalez.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
