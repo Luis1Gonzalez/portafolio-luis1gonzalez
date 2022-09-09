@@ -6,6 +6,7 @@ import { GrTwitter } from "react-icons/gr";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiFolderDownloadFill } from "react-icons/ri";
 import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
+import { CgPhone } from "react-icons/cg";
 import { useTranslation } from "react-i18next";
 
 import React from "react";
@@ -27,6 +28,11 @@ const Menu = () => {
 <div className="wrap__social mail d-flex align-items-center">
   <span className="w-25 text-center"><MdMarkEmailRead /></span>
   <a className="w-75 text-start" href="mailto:luis1gonzalez@hotmail.com">luis1gonzalez@hotmail.com</a>
+  </div>
+
+  <div className="wrap__social call d-flex align-items-center">
+  <span className="w-25 text-center"><CgPhone /></span>
+  <a className="w-75 text-start" href="tel:+34645081201">Movil</a>
   </div>
 
 <div className="wrap__social linkedin d-flex align-items-center">
