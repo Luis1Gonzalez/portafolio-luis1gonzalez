@@ -24,9 +24,29 @@ const MobileLink = () => {
       <h5 className="my-3">¿Que deseas hacer?</h5>
 
       <div className="wrap__socialx">
+        <div className="wrap__socialx whatsappx d-flex align-items-center my-3">
+          <span className="w-25 text-center">
+            <IoLogoWhatsapp className="wind" />
+          </span>
+          <a className="w-75 text-start" href="https://wa.me/34645081201">
+            Pasarme un Whatsapp
+          </a>
+        </div>
 
-       
-      <div className="wrap__socialx portfoliox d-flex align-items-center my-3">
+        <div className="wrap__socialx downloadx d-flex align-items-center my-3">
+          <span className="w-25 text-center">
+            <RiFolderDownloadFill />
+          </span>
+          <a
+            href={cvLuisGonzalez}
+            className="w-75 text-start"
+            download={cvLuisGonzalez}
+          >
+            Descargar mi CV
+          </a>
+        </div>
+
+        <div className="wrap__socialx portfoliox d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <CgWebsite />
           </span>
@@ -40,18 +60,17 @@ const MobileLink = () => {
           </a>
         </div>
 
-
         <div className="wrap__socialx mailx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <MdMarkEmailRead />
           </span>
-          <a className="w-75 text-start"
-          href="mailto:luis1gonzalez@hotmail.com">
+          <a
+            className="w-75 text-start"
+            href="mailto:luis1gonzalez@hotmail.com"
+          >
             Enviarme un Email
           </a>
         </div>
-
-     
 
         <div className="wrap__socialx callx d-flex align-items-center my-3">
           <span className="w-25 text-center">
@@ -59,15 +78,6 @@ const MobileLink = () => {
           </span>
           <a className="w-75 text-start" href="tel:+34645081201">
             Lamar a mi movil
-          </a>
-        </div>
-
-        <div className="wrap__socialx whatsappx d-flex align-items-center my-3">
-          <span className="w-25 text-center">
-            <IoLogoWhatsapp className="wind" />
-          </span>
-          <a className="w-75 text-start" href="https://wa.me/34645081201">
-            Pasarme un Whatsapp
           </a>
         </div>
 
@@ -113,40 +123,8 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx downloadx d-flex align-items-center my-3">
-          <span className="w-25 text-center">
-            <RiFolderDownloadFill />
-          </span>
-          <a
-            href={cvLuisGonzalez}
-            className="w-75 text-start"
-            download={cvLuisGonzalez}
-          >
-            Descargar mi CV
-          </a>
-        </div>
-
-
-        <div className="wrap__socialx portfoliox d-flex align-items-center my-3">
-          <span className="w-25 text-center">
-            <CgWebsite />
-          </span>
-          <a
-            className="w-75 text-start"
-            href="https://portafolio-luis1gonzalez.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visitar mi Portafolio
-          </a>
-        </div>
 
       </div>
-
-
-
-
-
     </div>
   );
 };
