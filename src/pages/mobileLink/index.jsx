@@ -28,7 +28,7 @@ const MobileLink = () => {
 <hr />
        
       <div className="wrap__social portfolio d-flex align-items-center my-2">
-          <span className="w-25 text-center bg-warning">
+          <span className="w-25 text-center">
             <CgWebsite />
           </span>
           <a
@@ -46,7 +46,8 @@ const MobileLink = () => {
           <span className="w-25 text-center">
             <MdMarkEmailRead />
           </span>
-          <a className="w-75 text-start" href="mailto:+34645081201">
+          <a className="w-75 text-start"
+          href="mailto:luis1gonzalez@hotmail.com">
             Enviarme un Email
           </a>
         </div>
