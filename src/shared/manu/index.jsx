@@ -5,8 +5,8 @@ import { ImLinkedin } from "react-icons/im";
 import { GrTwitter } from "react-icons/gr";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiFolderDownloadFill } from "react-icons/ri";
-import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
 import { CgPhone } from "react-icons/cg";
+import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf"
 import { useTranslation } from "react-i18next";
 
 import React from "react";
