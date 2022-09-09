@@ -41,7 +41,7 @@ const MobileLink = () => {
         </div>
 
 
-        <div className="wrap__social call d-flex align-items-center my-2">
+        <div className="wrap__social mail d-flex align-items-center my-2">
           <span className="w-25 text-center">
             <MdMarkEmailRead />
           </span>
