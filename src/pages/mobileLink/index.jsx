@@ -24,6 +24,17 @@ const MobileLink = () => {
       <h5 className="my-3">¿Que deseas hacer?</h5>
 
       <div className="wrap__socialx">
+
+
+        <div className="wrap__socialx whatsappx d-none align-items-center my-3">
+          <span className="w-25 text-center">
+            <IoLogoWhatsapp className="wind" />
+          </span>
+          <a className="w-75 text-start" href="https://wa.me/34645081201">
+            Pasarme un Whatsapp
+          </a>
+        </div>
+
         <div className="wrap__socialx whatsappx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <IoLogoWhatsapp className="wind" />
@@ -32,6 +43,8 @@ const MobileLink = () => {
             Pasarme un Whatsapp
           </a>
         </div>
+
+        
 
         <div className="wrap__socialx downloadx d-flex align-items-center my-3">
           <span className="w-25 text-center">
