@@ -26,7 +26,7 @@ const MobileLink = () => {
       <div className="wrap__socialx">
 
        
-      <div className="wrap__socialx portfoliox d-flex align-items-center my-5">
+      <div className="wrap__socialx portfoliox d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <CgWebsite />
           </span>
@@ -41,7 +41,7 @@ const MobileLink = () => {
         </div>
 
 
-        <div className="wrap__socialx mailx d-flex align-items-center my-5">
+        <div className="wrap__socialx mailx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <MdMarkEmailRead />
           </span>
@@ -53,7 +53,7 @@ const MobileLink = () => {
 
      
 
-        <div className="wrap__socialx callx d-flex align-items-center my-5">
+        <div className="wrap__socialx callx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <CgPhone />
           </span>
@@ -62,7 +62,7 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx whatsappx d-flex align-items-center my-5">
+        <div className="wrap__socialx whatsappx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <IoLogoWhatsapp className="wind" />
           </span>
@@ -71,7 +71,7 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx linkedinx d-flex align-items-center my-5">
+        <div className="wrap__socialx linkedinx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <ImLinkedin />
           </span>
@@ -85,7 +85,7 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx twitterx d-flex align-items-center my-5">
+        <div className="wrap__socialx twitterx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <GrTwitter />
           </span>
@@ -99,7 +99,7 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx githubx d-flex align-items-center my-5">
+        <div className="wrap__socialx githubx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <BsGithub />
           </span>
@@ -113,7 +113,7 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx downloadx d-flex align-items-center my-5">
+        <div className="wrap__socialx downloadx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <RiFolderDownloadFill />
           </span>
@@ -123,6 +123,21 @@ const MobileLink = () => {
             download={cvLuisGonzalez}
           >
             Descargar mi CV
+          </a>
+        </div>
+
+
+        <div className="wrap__socialx portfoliox d-flex align-items-center my-3">
+          <span className="w-25 text-center">
+            <CgWebsite />
+          </span>
+          <a
+            className="w-75 text-start"
+            href="https://portafolio-luis1gonzalez.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visitar mi Portafolio
           </a>
         </div>
 
