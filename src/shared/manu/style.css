@@ -86,6 +86,11 @@
     font-size:1.5rem;
 }
 
+.call{
+    color:#2ab85e;
+    font-size:1.5rem;
+}
+
 .wrap__qr img{
     width:60px;
     box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
