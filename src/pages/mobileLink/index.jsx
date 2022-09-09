@@ -24,19 +24,8 @@ const MobileLink = () => {
       <h5 className="my-3">¿Que deseas hacer?</h5>
 
       <div className="wrap__social">
-        <div className="wrap__social portfolio d-flex align-items-center my-2 border">
-          <span className="w-25 text-center">
-            <CgWebsite />
-          </span>
-          <a
-            className="w-75 text-start"
-            href="https://portafolio-luis1gonzalez.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visitar mi Portafolio
-          </a>
-        </div>
+
+       
 
      
 
@@ -130,7 +119,19 @@ const MobileLink = () => {
 
 
 
-
+        <div className="wrap__social portfolio d-flex align-items-center my-2 border">
+          <span className="w-25 text-center">
+            <CgWebsite />
+          </span>
+          <a
+            className="w-75 text-start"
+            href="https://portafolio-luis1gonzalez.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visitar mi Portafolio
+          </a>
+        </div>
 
 
 
