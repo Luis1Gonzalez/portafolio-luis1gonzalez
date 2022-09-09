@@ -30,25 +30,22 @@ const MobileLink = () => {
           <span className="w-25 text-center bg-warning">
             <CgWebsite />
           </span>
-          <div><a
+          <a
             className="w-75 text-start bg-success"
             href="https://portafolio-luis1gonzalez.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             Visitar mi Portafolio
-          </a></div>
+          </a>
         </div>
 
 
-        <div className="wrap__social mail d-flex align-items-center">
+        <div className="wrap__social call d-flex align-items-center my-2">
           <span className="w-25 text-center">
             <MdMarkEmailRead />
           </span>
-          <a
-            className="w-75 text-start"
-            href="mailto:luis1gonzalez@hotmail.com"
-          >
+          <a className="w-75 text-start" href="mailto:+34645081201">
             Enviarme un Email
           </a>
         </div>
