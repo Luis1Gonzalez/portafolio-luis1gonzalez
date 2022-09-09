@@ -25,6 +25,7 @@ const MobileLink = () => {
 
       <div className="wrap__social">
 
+<hr />
        
       <div className="wrap__social portfolio d-flex align-items-center my-2">
           <span className="w-25 text-center bg-warning">
