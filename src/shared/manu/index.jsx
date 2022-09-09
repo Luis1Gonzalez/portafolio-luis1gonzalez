@@ -60,7 +60,7 @@ const Menu = () => {
 
       <div className="wrap__qr px-3 px-sm-5 d-flex justify-content-end w-50">
       <img
-        src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fportafolio-luis1gonzalez.netlify.app%2F&chs=180x180&choe=UTF-8&chld=L|2"
+        src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fportafolio-luis1gonzalez.netlify.app/mobileLink%2F&chs=180x180&choe=UTF-8&chld=L|2"
         alt=""
       ></img>
     </div>

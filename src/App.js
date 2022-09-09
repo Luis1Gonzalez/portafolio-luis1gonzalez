@@ -4,6 +4,7 @@ import Header from "./shared/header";
 import Menu from "./shared/manu";
 import Details from "./pages/details";
 import Me from "./pages/me";
+import MobileLink from "./pages/mobileLink";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import styled, { ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from  "./themes.js";
@@ -56,6 +57,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/project/:title" element={<Details />}></Route>
           <Route path="/me" element={<Me />}></Route>
+          <Route path="/mobileLink" element={<MobileLink />}></Route>
         </Routes>
 
         </StyledApp>
