@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div className="App w-100">
+    <div className="App w-100 d-flex flex-column flex-wrap">
 
 <div className="header__options col-12 d-flex justify-content-end align-items-center pe-3">
         <div className="options d-flex align-items-center">

@@ -1,4 +1,5 @@
 .wrap__header{
+    width: 100vw;
     height: auto;
     font-family: 'Kalam', cursive;
 }
@@ -8,6 +9,7 @@
 .letterhead{
     border-bottom:1px solid #ccc;
     background-color: rgb(107, 127, 240);
+    width:100vw;
 }
 
 .circle__foto img{
