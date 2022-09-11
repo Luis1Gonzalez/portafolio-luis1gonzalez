@@ -33,5 +33,19 @@
     "me1":"Hello, I am Luis Antonio, Industrial Maintenance Engineer with more than 14 years of work experience in the area of Occupational Risk Prevention and in the execution of projects of various kinds. I consider myself passionate about technology in general, but especially for the IT world.",
     "me2":"Since 2021 I have been training as a web application developer and this 2022 I have done a Full Stack Bootcamp where I have acquired a series of knowledge in methodologies, tools and technologies related to programming and web development, these new skills have motivated me and have allowed me to make a series of applications among which I have a weather application, able to geolocate the user and show the weather in real time, an app that shows the billboard of nearby cinemas, an app with cocktail recipes and a website for a bakery in Santiago de Chile.",
     "me3":"My goal is to continue adding knowledge, tools and skills to my background, strengthening myself every day as a Full Stack developer and developing high level applications and through my work contribute value to our society."
+},
+
+"mobileLink":{
+    "link":"Mobile Link",
+    "wish":"What do you want to do?",
+    "whatsapp":"Send me a WhatsApp",
+    "download":"Download mi CV",
+    "portfolio":"Visit my Portfolio",
+    "mail":"Send me an Email",
+    "call":"Call my mobile",
+    "linkedin":"Visit my Linkedin",
+    "twitter":"Visit my Twitter",
+    "github":"Visit my GitHub"
 }
+
 }

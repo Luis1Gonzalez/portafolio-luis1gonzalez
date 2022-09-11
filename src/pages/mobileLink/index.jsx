@@ -19,9 +19,9 @@ const MobileLink = () => {
 
   return (
     <div className="Wrap__MobileLink p-4">
-      <h1>Enlace Movil</h1>
+      <h1>{t('mobileLink.link')}</h1>
 
-      <h5 className="my-3">¿Que deseas hacer?</h5>
+      <h5 className="my-3">{t('mobileLink.wish')}</h5>
 
       <div className="wrap__socialx">
 
@@ -31,7 +31,7 @@ const MobileLink = () => {
             <IoLogoWhatsapp className="wind" />
           </span>
           <a className="w-75 text-start" href="https://wa.me/34645081201">
-            Pasarme un Whatsapp
+            Enviarme un Whatsapp
           </a>
         </div>
 
@@ -40,7 +40,7 @@ const MobileLink = () => {
             <IoLogoWhatsapp className="wind" />
           </span>
           <a className="w-75 text-start" href="https://wa.me/34645081201">
-            Pasarme un Whatsapp
+          {t('mobileLink.whatsapp')}
           </a>
         </div>
 
@@ -55,7 +55,7 @@ const MobileLink = () => {
             className="w-75 text-start"
             download={cvLuisGonzalez}
           >
-            Descargar mi CV
+            {t('mobileLink.download')}
           </a>
         </div>
 
@@ -69,7 +69,7 @@ const MobileLink = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visitar mi Portafolio
+            {t('mobileLink.portfolio')}
           </a>
         </div>
 
@@ -81,7 +81,7 @@ const MobileLink = () => {
             className="w-75 text-start"
             href="mailto:luis1gonzalez@hotmail.com"
           >
-            Enviarme un Email
+            {t('mobileLink.mail')}
           </a>
         </div>
 
@@ -90,7 +90,7 @@ const MobileLink = () => {
             <CgPhone />
           </span>
           <a className="w-75 text-start" href="tel:+34645081201">
-            Lamar a mi movil
+          {t('mobileLink.call')}
           </a>
         </div>
 
@@ -104,7 +104,7 @@ const MobileLink = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visitar mi Linkedin
+            {t('mobileLink.linkedin')}
           </a>
         </div>
 
@@ -118,7 +118,7 @@ const MobileLink = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visitar mi Twitter
+            {t('mobileLink.twitter')}
           </a>
         </div>
 
@@ -132,7 +132,7 @@ const MobileLink = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visitar mi GitHub
+            {t('mobileLink.github')}
           </a>
         </div>
 

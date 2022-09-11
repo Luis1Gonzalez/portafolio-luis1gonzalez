@@ -32,7 +32,7 @@ const Menu = () => {
 
   <div className="wrap__social call d-flex align-items-center">
   <span className="w-25 text-center"><CgPhone /></span>
-  <a className="w-75 text-start" href="tel:+34645081201">Movil</a>
+  <a className="w-75 text-start" href="tel:+34645081201">Llamara: +34 645081201</a>
   </div>
 
 <div className="wrap__social linkedin d-flex align-items-center">
@@ -47,7 +47,7 @@ const Menu = () => {
 
 <div className="wrap__social whatsapp d-flex align-items-center">
   <span className="w-25 text-center"><IoLogoWhatsapp className="wind" /></span>
-  <a className="w-75 text-start" href="https://wa.me/34645081201">+34 645081201</a>
+  <a className="w-75 text-start" href="https://wa.me/34645081201">WhatsApp: +34 645081201</a>
   </div>
 
 <div className="wrap__social download d-flex align-items-center">

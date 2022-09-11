@@ -41,7 +41,7 @@ h5{
 }
 
 .downloadx{
-    color: rgb(92, 91, 91);
+    color: rgb(175, 135, 135);
     font-size:1.5rem;
 }
 
@@ -63,6 +63,12 @@ h5{
 .wrap__socialx a{
     font-size:1rem;
     text-decoration:none;
-    color:#000;
     font-style: italic;
+}
+
+.wrap__socialx a:hover{
+
+    text-decoration:underline;
+    color:rgb(255, 0, 0);
+    letter-spacing: 3px;
 }
