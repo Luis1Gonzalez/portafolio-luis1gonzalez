@@ -1,6 +1,7 @@
 import "./style.css";
 import About from "../../components/about";
 import Projects from "../../components/projects";
+import Keyboard from "./../../components/keyboard"
 
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
 
 <About />
 <Projects />
-
+        <Keyboard />
 </div>
   );
 };

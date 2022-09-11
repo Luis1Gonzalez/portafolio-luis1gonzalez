@@ -1,0 +1,91 @@
+.wrap__keyboard{
+    width: 230px;
+    opacity:.2;
+    position: relative;
+    top:-500px;
+    left:20%;
+}
+
+.united{
+    width:154px;
+}
+
+.key{
+    width: 45px;
+    height: 45px;
+    border:1px solid;
+    margin:3px;
+    background-color: rgb(26, 25, 25);
+
+  border: 1px solid rgb(73, 72, 72);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px rgb(58, 57, 57);
+  border-radius: 3px;
+  display: inline-block;
+  text-shadow: 0px 1px 0px #333;
+  font-size: 1rem;
+cursor: pointer;
+}
+
+.kenter{
+    height:100px;
+}
+
+.khtml{
+    color: #f06529;
+    font-size:1.5rem;
+}
+
+.kcss{
+    color: #2965f1;
+    font-size:1.5rem;
+}
+
+.kjs{
+    color: #f0db4f;
+    font-size:1.5rem;
+}
+
+.kreact{
+    color: #61dbfb;
+    font-size:1.5rem;
+}
+
+.knode{
+    color:#3c873a;
+    font-size:1.5rem;
+}
+
+.kmongo{
+    color:#4db33d;
+    font-size:1.5rem;
+}
+
+.kts{
+    color:#007acc;
+    font-size:1.5rem;
+}
+
+.kphp{
+    color:#787cb5;
+    font-size:1.9rem;
+}
+
+.kjest{
+    color:#bb3a16;
+    width:96px;
+    font-size:1.5rem;
+}
+
+.kwordpress{
+    color:#00749c;
+    font-size:1.5rem;
+}
+.circle__express{
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    background-color: #c3726b;
+}
+

@@ -9,9 +9,7 @@ import cvLuisGonzalez from "../../image/cvLuisGonzalez.pdf";
 import { CgPhone } from "react-icons/cg";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
 import { useTranslation } from "react-i18next";
-
 import React from "react";
 
 const MobileLink = () => {
@@ -138,6 +136,8 @@ const MobileLink = () => {
 
 
       </div>
+
+
     </div>
   );
 };
