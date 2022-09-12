@@ -108,8 +108,8 @@ tecIcons3=<></>;
 tecIcons4=<></>;
 tecIcons5=<SiBootstrap />;
 tecIcons6=<></>;
-        url= "https://zuccheroscakes.netlify.app/index.html";
-        github= "https://github.com/Luis1Gonzalez/zuccheroscakes";
+        url= "https://zuccheroscakes-cl.netlify.app/";
+        github= "https://github.com/Luis1Gonzalez/zucherosCakes";
         detailPicture=detailZuccherosCakes
         detailPicture2=detailZuccherosCakes2
 
