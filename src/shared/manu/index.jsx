@@ -37,7 +37,7 @@ const Menu = () => {
 
 <div className="wrap__social linkedin d-flex align-items-center">
 <span className="w-25 text-center"><ImLinkedin /></span>
-  <a className="w-75 text-start" href="http://www.linkedin.com/in/luis1gonzalez" target="_blank" rel="noopener noreferrer">www.linkedin.com</a>
+  <a className="w-75 text-start" href="www.linkedin.com/in/luis1gonzalez-web-developer-frontend" target="_blank" rel="noopener noreferrer">www.linkedin.com</a>
   </div>
 
 <div className="wrap__social twitter d-flex align-items-center">
