@@ -25,7 +25,10 @@
         "tecnologiesBarraLibre45": "Barra Libre 45 gets its data from THECOCKTAILDB API which is a free Api that provides cocktail information and several ways to make requests such as by name, type, ingredients, among others and is developed using HTML, CSS, JavaScript, REACT JS, BOOTSTRAP and SASS.",
 
         "descriptionZuccherosCakes": "This page was developed for the pastry company Zuccheros Cakes located in Santiago de Chile, is an informative page where the company aims to keep its customers updated by publishing their latest creations and news, as well as their promotions and other information that motivates the consumption of their products, in addition to serving as a direct channel of communication with all those who wish to contact them.",
-        "tecnologiesZuccherosCakes": "In the layout of this page HTML, CSS and BOOTSTRAP were used and the photos of the products used were selected and supplied by the same company as well as comments and customer list."
+        "tecnologiesZuccherosCakes": "In the layout of this page HTML, CSS and BOOTSTRAP were used and the photos of the products used were selected and supplied by the same company as well as comments and customer list.",
+
+        "descriptionTikTac": "TIK-TAC is an app that simulates a board game, where participants through a random combination of a pair of letters and a position (Start, Bom and End) must indicate words using these combinations until the time (accompanied by a tik-tak sound) comes to an end, being this indicated by the app by a sound and change of background.",
+        "tecnologiesTikTac": "In the construction of this App I played a lot with random elements, first to select the position of the letters to conjugate, secondly to determine the combination of letters and finally to set the playing time through setInterval. Moreover, in this application I used custom hooks and integrated sounds obtained from the BBC sound effects database."
     },
 
     "me":{

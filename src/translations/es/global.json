@@ -26,7 +26,10 @@
         "tecnologiesBarraLibre45": "Barra Libre 45 obtiene sus datos de la API de THECOCKTAILDB que es una Api gratuita que provee informacion de cocteles y varias formas de hacer peticiones como por ejemplo por nombre, tipo, ingredientes, entre otros y está desarrollada haciendo uso de HTML, CSS, JavaScript, REACT JS, BOOTSTRAP Y SASS.",
 
         "descriptionZuccherosCakes": "Esta página fue desarrollada para la empresa de reposteria Zuccheros Cakes ubicada en Santiago de Chile, es una página informativa donde la empresa pretende mantener actualizada a su clientela publicando sus últimas creaciones y novedades, al igual que sus promociones y alguna otra información que motive el consumo de sus productos, además de servir de canal directo de comunicación con todos aquellos que deseen contactarles.",
-        "tecnologiesZuccherosCakes": "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes."
+        "tecnologiesZuccherosCakes": "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes.",
+
+        "descriptionTikTac": "TIK-TAC es una app que simula un juego de mesa, donde los participantes a través de una combinación aleatoria de una dupla de letras y una posición (Inicio, Bom y Fin) deben indicar palabras haciendo uso de estas combinaciones hasta que el tiempo (acompañado por un sonido de tik-tak) llegue a su fin, siendo esto indicado por la app por un sonido y cambio de background.",
+        "tecnologiesTikTac": "En la construcción de esta App jugué mucho con elementos random, primero para seleccionar la posición de las letras a conjugar, en segundo lugar para determinar la combinación de letras y finalmente para establecer el tiempo de juego a través de setInterval. Por otra parte, en esta aplicación use custom hooks e integre sonidos obtenido de la base de datos de efectos de sonidos de la BBC."
     },
 
     "me":{

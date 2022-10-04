@@ -63,8 +63,8 @@ const Details = () => {
 
         case 'TIK-TAC':
             tittle = "Tik-Tac";
-            description = t('details.descriptionWeatherApp');
-            tecnologies = t('details.tecnologiesWeatherApp');
+            description = t('details.descriptionTikTac');
+            tecnologies = t('details.tecnologiesTikTac');
             tecIcons1 = <ImHtmlFive />;
             tecIcons2 = <SiCss3 />;
             tecIcons3 = <SiJavascript />;
