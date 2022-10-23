@@ -192,7 +192,7 @@ const Details = () => {
                 <img src={measure} alt="imagen de la medición" />
             </div>
 
-            <div className='wrap__lighthouse my-1 py-2 px-4 d-flex justify-content-end w-100'>
+            <div className='wrap__lighthouse my-1 py-2 px-4 d-flex justify-content-end w-100 mb-4 mx-4'>
                 <p><a href={measureDescription}>Medición según LightHouse</a></p>
             </div>
 
