@@ -40,6 +40,8 @@
     text-align: justify;
 }
 
+
+
 .wrap__tecIcons {
     font-size: 2rem;
     width:100%;
@@ -100,6 +102,22 @@
 }
 
 .wrap__github a:hover{
+    font-size: 1.3rem;
+    color:rgb(255, 0, 0);
+}
+
+.wrap__lighthouse {
+    font-size: 1.2rem;
+    height:30px;
+    text-decoration: none;
+}
+
+.wrap__lighthouse a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.wrap__lighthouse a:hover{
     font-size: 1.3rem;
     color:rgb(255, 0, 0);
 }

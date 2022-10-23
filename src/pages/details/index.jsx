@@ -12,6 +12,7 @@ import detailTikTac1 from "../../image/detailsTikTac1.png"
 import detailTikTac2 from "../../image/detailsTikTac2.png"
 import detailEuroMecanica from "../../image/detailsEuroMecanica.png"
 import detailEuroMecanica2 from "../../image/detailsEuromecanica2.png"
+import measureEuroMecanica from "../../image/measureEuroMecanica.png"
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -37,6 +38,8 @@ const Details = () => {
     let github = "";
     let detailPicture = "";
     let detailPicture2 = "";
+    let measure ="";
+    let measureDescription="";
     let tecIcons1 = "";
     let tecIcons2 = "";
     let tecIcons3 = "";
@@ -64,6 +67,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/euroMecanica";
             detailPicture = detailEuroMecanica
             detailPicture2 = detailEuroMecanica2
+            measure=measureEuroMecanica
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Ftalleres-euromecanica.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
         case 'Weather App':
@@ -182,6 +187,16 @@ const Details = () => {
             <div className='wrap__tecnologies my-1 py-2 px-4'>
                 <p>{tecnologies}</p>
             </div>
+
+            <div className="wrap__lightHoouseImg mb-3 my-1 d-flex">
+                <img src={measure} alt="imagen de la medición" />
+            </div>
+
+            <div className='wrap__lighthouse my-1 py-2 px-4 d-flex justify-content-end w-100'>
+                <p><a href={measureDescription}>Medición según LightHouse</a></p>
+            </div>
+
+            
 
             <div className='wrap__tecIcons d-flex justify-content-start'>
                 <div className="tIcons iconHtml mx-2">{tecIcons1 ? tecIcons1 : ""}</div>
