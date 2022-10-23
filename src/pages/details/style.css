@@ -8,7 +8,6 @@
     height: 250px;
     box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
     border-radius: 5px;
-    padding: 10px 0;
     padding: 10px;
 }
 
@@ -40,7 +39,18 @@
     text-align: justify;
 }
 
+.wrap__lightHoouseImg {
+    width: 85%;
+    box-shadow: 0 0 6px silver, 0px 0px 9px 0px #6b7ff0;
+    border-radius: 5px;
+    padding: 10px;
+}
 
+.wrap__lightHoouseImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
 
 .wrap__tecIcons {
     font-size: 2rem;
