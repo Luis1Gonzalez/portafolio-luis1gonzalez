@@ -29,7 +29,10 @@
         "tecnologiesZuccherosCakes": "En la maquetación de esta página se utilizó HTML, CSS Y BOOTSTRAP y las fotos de los productos utilizadas fueron seleccionadas y suministradas por la misma empresa al igual que comentarios y listado de clientes.",
 
         "descriptionTikTac": "TIK-TAC es una app que simula un juego de mesa, donde los participantes a través de una combinación aleatoria de una dupla de letras y una posición (Inicio, Bom y Fin) deben indicar palabras haciendo uso de estas combinaciones hasta que el tiempo (acompañado por un sonido de tik-tak) llegue a su fin, siendo esto indicado por la app por un sonido y cambio de background.",
-        "tecnologiesTikTac": "En la construcción de esta App jugué mucho con elementos random, primero para seleccionar la posición de las letras a conjugar, en segundo lugar para determinar la combinación de letras y finalmente para establecer el tiempo de juego a través de setInterval. Por otra parte, en esta aplicación use custom hooks e integre sonidos obtenido de la base de datos de efectos de sonidos de la BBC."
+        "tecnologiesTikTac": "En la construcción de esta App jugué mucho con elementos random, primero para seleccionar la posición de las letras a conjugar, en segundo lugar para determinar la combinación de letras y finalmente para establecer el tiempo de juego a través de setInterval. Por otra parte, en esta aplicación use custom hooks e integre sonidos obtenido de la base de datos de efectos de sonidos de la BBC.",
+
+        "descriptionEuroMecanica": "EuroMecanica es un sistema de gestión completo para un taller de mecánica automotriz, donde el usuario podrá crear fichas particulares para cada vehículo recibido para su mantenimiento quedando esto alojado temporalmente en el localStorage, en este sistema, el usuario podrá generar tanto presupuestos como facturas.",
+        "tecnologiesEuroMecanica": "Esta app fue creada con React JS y se aplicó como framework CSS Tailwind lo que facilitó la organización y optimizó el rendimiento durante la ejecución en función del tiempo, de igual forma se hace uso del localStorage para guardar los datos temporalmente."
     },
 
     "me":{

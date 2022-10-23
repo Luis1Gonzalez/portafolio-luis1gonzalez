@@ -28,7 +28,10 @@
         "tecnologiesZuccherosCakes": "In the layout of this page HTML, CSS and BOOTSTRAP were used and the photos of the products used were selected and supplied by the same company as well as comments and customer list.",
 
         "descriptionTikTac": "TIK-TAC is an app that simulates a board game, where participants through a random combination of a pair of letters and a position (Start, Bom and End) must indicate words using these combinations until the time (accompanied by a tik-tak sound) comes to an end, being this indicated by the app by a sound and change of background.",
-        "tecnologiesTikTac": "In the construction of this App I played a lot with random elements, first to select the position of the letters to conjugate, secondly to determine the combination of letters and finally to set the playing time through setInterval. Moreover, in this application I used custom hooks and integrated sounds obtained from the BBC sound effects database."
+        "tecnologiesTikTac": "In the construction of this App I played a lot with random elements, first to select the position of the letters to conjugate, secondly to determine the combination of letters and finally to set the playing time through setInterval. Moreover, in this application I used custom hooks and integrated sounds obtained from the BBC sound effects database.",
+
+        "descriptionEuroMecanica": "EuroMecanica is a complete management system for an automotive mechanic workshop, where the user can create individual files for each vehicle received for maintenance, being this temporarily hosted in the localStorage, in this system, the user can generate both budgets and invoices.",
+        "tecnologiesEuroMecanica": "This app was created with React JS and applied as CSS framework Tailwind which facilitated the organization and optimized performance during execution in terms of time, in the same way it makes use of the localStorage to store data temporarily."
     },
 
     "me":{

@@ -4,12 +4,24 @@ import laCartelera from "../image/fotoLaCarteleraEs.png";
 import barralibre45 from "../image/fotoBarraLibre45.png";
 import zuccherosCakes from "../image/fotoZuccherosCakes.png"
 import fotoTikTacApp from "../image/fotoTikTacApp.png"
+import fotoEuroMecanica from "../image/fotoEuroMecanica.png"
 
 const useProjects = () => {
 
   const miProjects = [
     {
       "id": 1,
+      "title": "EuroMecánica",
+      "description":
+        "EuroMecanica es un sistema de gestión completo para un taller de mecánica automotriz, donde el usuario podrá crear fichas particulares para cada vehículo recibido para su mantenimiento quedando esto alojado temporalmente en el localStorage, en este sistema, el usuario podrá generar tanto presupuestos como facturas.",
+      "tecnologies": "HTML, CSS, JavaScript, REACT y TAILWIND.",
+      "url": "https://talleres-euromecanica.netlify.app/",
+      "github": "https://github.com/Luis1Gonzalez/euroMecanica",
+      "picture": fotoEuroMecanica,
+    },
+
+    {
+      "id": 2,
       "title": "Weather App",
       "description":
         "Es un aplicación que muestra el estado del tiempo en real time, sea en local o de la ciudad ingresada por el usuario, esta app extrae la información climatologica haciendo uso de la API OPENWEATHER.",
@@ -21,7 +33,7 @@ const useProjects = () => {
 
 
     {
-      "id": 2,
+      "id": 3,
       "title": "TIK-TAC",
       "description":
         "Es un aplicación que muestra el estado del tiempo en real time, sea en local o de la ciudad ingresada por el usuario, esta app extrae la información climatologica haciendo uso de la API OPENWEATHER.",
@@ -32,7 +44,7 @@ const useProjects = () => {
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "LaCartelera.es",
       "description":
         "Es un App aplicación para cinefilos, donde se puede ver la cartelera actual y los estrenos, se puede buscar peliculas en especifico y mirar la informacion de esta, tambien se puede obtener los horarios de las proyecciones en los cines cercanos.",
@@ -43,7 +55,7 @@ const useProjects = () => {
     },
 
     {
-      "id": 4,
+      "id": 5,
       "title": "Barra Libre 45",
       "description":
         "Barra Libre 45 es una App donde a través del consumo del API de .thecocktaildb se muestra fichas de cocteles junto a sus ingredientes y forma de preparación, en la app se puede pasar a través de las páginas para encontrar algún coctel que se desee o se puede buscar por su nombre.",
@@ -54,7 +66,7 @@ const useProjects = () => {
     },
 
     {
-      "id": 5,
+      "id": 6,
       "title": "ZuccherosCakes",
       "description":
         "La página desarrollada para la empresa de repostería Zucheros Cake ubicada en Santiago de Chile, es de tipo informativa, muestra lo mejor de su trabajo y sus productos más recientes, al igual que ofrece la información de contacto.",

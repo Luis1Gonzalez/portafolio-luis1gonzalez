@@ -10,12 +10,15 @@ import detailZuccherosCakes from "../../image/detailsZuccherosCakes.png";
 import detailZuccherosCakes2 from "../../image/detailsZuccherosCakes2.png";
 import detailTikTac1 from "../../image/detailsTikTac1.png"
 import detailTikTac2 from "../../image/detailsTikTac2.png"
+import detailEuroMecanica from "../../image/detailsEuroMecanica.png"
+import detailEuroMecanica2 from "../../image/detailsEuromecanica2.png"
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 
@@ -40,9 +43,28 @@ const Details = () => {
     let tecIcons4 = "";
     let tecIcons5 = "";
     let tecIcons6 = "";
+    let tecIcons7 = "";
 
 
     switch (title) {
+
+        case 'EuroMecánica':
+
+            tittle = "Talleres EuroMecánica";
+            description = t('details.descriptionEuroMecanica');
+            tecnologies = t('details.tecnologiesEuroMecanica');
+            tecIcons1 = <ImHtmlFive />;
+            tecIcons2 = <SiCss3 />;
+            tecIcons3 = <SiJavascript />;
+            tecIcons4 = <SiReact />;
+            tecIcons5 = <></>;
+            tecIcons6 = <></>;
+            tecIcons7 = <SiTailwindcss />;
+            url = "https://talleres-euromecanica.netlify.app/";
+            github = "https://github.com/Luis1Gonzalez/euroMecanica";
+            detailPicture = detailEuroMecanica
+            detailPicture2 = detailEuroMecanica2
+            break;
 
         case 'Weather App':
 
@@ -168,6 +190,7 @@ const Details = () => {
                 <div className="tIcons iconReact mx-2">{tecIcons4 ? tecIcons4 : ""}</div>
                 <div className="tIcons iconBootstrap mx-2">{tecIcons5 ? tecIcons5 : ""}</div>
                 <div className="tIcons iconSass mx-2">{tecIcons6 ? tecIcons6 : ""}</div>
+                <div className="tIcons iconTailwind mx-2">{tecIcons6 ? tecIcons7 : ""}</div>
             </div>
 
             <div className='wrap__web my-2 w-100 d-flex justify-content-end pe-3'>
