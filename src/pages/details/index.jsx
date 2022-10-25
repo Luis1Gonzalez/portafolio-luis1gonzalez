@@ -13,6 +13,11 @@ import detailTikTac2 from "../../image/detailsTikTac2.png"
 import detailEuroMecanica from "../../image/detailsEuroMecanica.png"
 import detailEuroMecanica2 from "../../image/detailsEuromecanica2.png"
 import measureEuroMecanica from "../../image/measureEuroMecanica.png"
+import measureWeatherApp from "../../image/measureWeatherApp.png"
+import measureTikTac from "../../image/measureTikTac.png"
+import measureLaCarteleraEs from "../../image/measureLaCarteleraEs.png"
+import measureBarraLibre45 from "../../image/measureBarraLibre45.png"
+import measureZuccherosCakes from "../../image/measureZuccherosCakes.png"
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -86,6 +91,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/weather-app.git";
             detailPicture = detailWeatherApp
             detailPicture2 = detailWeatherApp2
+            measure=measureWeatherApp
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fweather-1-app.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
         case 'TIK-TAC':
@@ -102,6 +109,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/tik-tac";
             detailPicture = detailTikTac1
             detailPicture2 = detailTikTac2
+            measure=measureTikTac
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Ftik-tac.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
         case 'LaCartelera.es':
@@ -119,7 +128,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/laCarteleraEs.git";
             detailPicture = detailLaCarteleraEs
             detailPicture2 = detailLaCarteleraEs2
-
+            measure=measureLaCarteleraEs
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fla-cartelera-es.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
         case 'Barra Libre 45':
@@ -137,7 +147,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/barra-libre-45";
             detailPicture = detailLaBarraLibre45
             detailPicture2 = detailLaBarraLibre452
-
+            measure=measureBarraLibre45
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fbarra-libre-45.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
 
@@ -156,7 +167,8 @@ const Details = () => {
             github = "https://github.com/Luis1Gonzalez/zucherosCakes";
             detailPicture = detailZuccherosCakes
             detailPicture2 = detailZuccherosCakes2
-
+            measure=measureZuccherosCakes
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fzuccheroscakes-cl.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
             break;
 
         default:

@@ -20,7 +20,7 @@ const nuevo = miProjects[0];
 
       <div className="wrap__cards px-4 py-2 d-flex flex-wrap justify-content-around">
         {nuevo.map((p, pos) => (
-          <div className="card mx-1 my-2 px-4 py-2 col-12 col-sm-5 col-md-3" key={p.id}>
+          <div className="card mx-1 my-2 px-4 py-2 px-md-2 col-12 col-sm-5 col-md-3" key={p.id}>
             <div className="card__img rounded d-flex flex-wrap justify-content-center" onClick={() =>navigate(`/project/${p.title}`)}>
               <img className="" src={p.picture} alt="imagen de la app"/>
               </div>
