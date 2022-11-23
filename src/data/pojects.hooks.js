@@ -19,7 +19,7 @@ const useProjects = () => {
 
     {
       "id": 2,
-      "title": "Control Gastos",
+      "title": "Control de Gastos",
       "picture": fotoControlGastos,
     },
 

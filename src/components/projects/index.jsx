@@ -26,7 +26,7 @@ const nuevo = miProjects[0];
               </div>
 
 <div className=" wrap__git d-flex align-items-center justify-content-around">              
-            <p className="linkHref my-2 fs-2">{p.title}</p>
+            <p className="linkHref my-2 fs-3">{p.title}</p>
             </div>
           </div>
         ))}

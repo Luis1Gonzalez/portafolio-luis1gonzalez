@@ -31,7 +31,13 @@
         "tecnologiesTikTac": "In the construction of this App I played a lot with random elements, first to select the position of the letters to conjugate, secondly to determine the combination of letters and finally to set the playing time through setInterval. Moreover, in this application I used custom hooks and integrated sounds obtained from the BBC sound effects database.",
 
         "descriptionEuroMecanica": "EuroMecanica is a complete management system for an automotive mechanic workshop, where the user can create individual files for each vehicle received for maintenance, being this temporarily hosted in the localStorage, in this system, the user can generate both budgets and invoices.",
-        "tecnologiesEuroMecanica": "This app was created with React JS and applied as CSS framework Tailwind which facilitated the organization and optimized performance during execution in terms of time, in the same way it makes use of the localStorage to store data temporarily."
+        "tecnologiesEuroMecanica": "This app was created with React JS and applied as CSS framework Tailwind which facilitated the organization and optimized performance during execution in terms of time, in the same way it makes use of the localStorage to store data temporarily.",
+
+        "desriptionCryptoCalculator": "CryptoCalculator is an application where users can obtain in real time the quotation of one of the 20 main cryptocurrencies in the market at the time of the query, just by selecting the fiat currency (legal tender in a given country) and the cryptocurrency for which you want to have the information.",
+        "tecnologiesCyptoCalculator": "This App is built with the React JS library and using the TailwindCss framework to give it styles, on the other hand, the CryptoCompare page (https://www.cryptocompare.com/) was used to obtain the updated data of the quotes for each query made through this application.",
+
+        "descriptionControlGastos": "The Control de Gastos Application is an App developed to keep track of expenses based on a budget. The user must initially enter a budget, then the App will give access to the section where the user can define the expenses previously planned or that are presented, these data will be saved and you can see through a progress bar the balance spent and available, likewise the user can filter expenses in categories.",
+        "tecnologiesControlGastos": "Expense Control is developed with the React JS library and was styled with the TailwindCss framework, localStorage was used to save the information temporarily, and react-circular-progressbar was used to show the percentage of expenses that were carried according to the initially defined budget."
     },
 
     "me":{

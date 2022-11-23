@@ -12,12 +12,18 @@ import detailTikTac1 from "../../image/detailsTikTac1.png"
 import detailTikTac2 from "../../image/detailsTikTac2.png"
 import detailEuroMecanica from "../../image/detailsEuroMecanica.png"
 import detailEuroMecanica2 from "../../image/detailsEuromecanica2.png"
+import detailCryptoCalculator from "../../image/detailsCryptoCalculator.png"
+import detailCryptoCalculator2 from "../../image/detailsCryptoCalculator2.png"
+import detailControlGastos from "../../image/detailsControlGastos.png"
+import detailControlGastos2 from "../../image/detailsControlGastos2.png"
 import measureEuroMecanica from "../../image/measureEuroMecanica.png"
 import measureWeatherApp from "../../image/measureWeatherApp.png"
 import measureTikTac from "../../image/measureTikTac.png"
 import measureLaCarteleraEs from "../../image/measureLaCarteleraEs.png"
 import measureBarraLibre45 from "../../image/measureBarraLibre45.png"
 import measureZuccherosCakes from "../../image/measureZuccherosCakes.png"
+import measureControlGastos from "../../image/measureControlGastos.png"
+import measureCryptoCalculator from "../../image/measureCryptoCalculator.png"
 import { ImHtmlFive } from "react-icons/im";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
@@ -55,6 +61,46 @@ const Details = () => {
 
 
     switch (title) {
+
+        case 'CryptoCalculator':
+
+            tittle = "CryptoCalculator";
+            description = t('details.desriptionCryptoCalculator');
+            tecnologies = t('details.tecnologiesCyptoCalculator');
+            tecIcons1 = <ImHtmlFive />;
+            tecIcons2 = <SiCss3 />;
+            tecIcons3 = <SiJavascript />;
+            tecIcons4 = <SiReact />;
+            tecIcons5 = <></>;
+            tecIcons6 = <></>;
+            tecIcons7 = <SiTailwindcss />;
+            url = "https://my-crypto-calculator.netlify.app";
+            github = "https://github.com/Luis1Gonzalez/crypto-calculator";
+            detailPicture = detailCryptoCalculator
+            detailPicture2 = detailCryptoCalculator2
+            measure=measureCryptoCalculator
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fmy-crypto-calculator.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
+            break;
+
+        case 'Control de Gastos':
+
+            tittle = "Control de Gastos";
+            description = t('details.descriptionControlGastos');
+            tecnologies = t('details.tecnologiesControlGastos');
+            tecIcons1 = <ImHtmlFive />;
+            tecIcons2 = <SiCss3 />;
+            tecIcons3 = <SiJavascript />;
+            tecIcons4 = <SiReact />;
+            tecIcons5 = <></>;
+            tecIcons6 = <></>;
+            tecIcons7 = <SiTailwindcss />;
+            url = "https://control-gastos-presupuesto-mes.netlify.app";
+            github = "https://github.com/Luis1Gonzalez/control-gastos";
+            detailPicture = detailControlGastos
+            detailPicture2 = detailControlGastos2
+            measure=measureControlGastos
+            measureDescription ="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fcontrol-gastos-presupuesto-mes.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
+            break;
 
         case 'EuroMecánica':
 
@@ -205,7 +251,7 @@ const Details = () => {
             </div>
 
             <div className='wrap__lighthouse my-1 py-2 px-4 d-flex justify-content-end w-100 mb-4 mx-4'>
-                <p><a href={measureDescription}>Medición según LightHouse</a></p>
+                <p><a href={measureDescription} target="_blank" rel="noopener noreferrer">Medición según LightHouse</a></p>
             </div>
 
             
