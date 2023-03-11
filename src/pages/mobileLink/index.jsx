@@ -98,7 +98,7 @@ const MobileLink = () => {
           </span>
           <a
             className="w-75 text-start"
-            href="www.linkedin.com/in/luis1gonzalez-web-developer-frontend"
+            href="https://www.linkedin.com/in/luis1gonzalez-web-developer-frontend"
             target="_blank"
             rel="noopener noreferrer"
           >
