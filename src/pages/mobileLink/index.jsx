@@ -106,20 +106,6 @@ const MobileLink = () => {
           </a>
         </div>
 
-        <div className="wrap__socialx twitterx d-flex align-items-center my-3">
-          <span className="w-25 text-center">
-            <GrTwitter />
-          </span>
-          <a
-            className="w-75 text-start"
-            href="https://twitter.com/luisgonzalez246"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('mobileLink.twitter')}
-          </a>
-        </div>
-
         <div className="wrap__socialx githubx d-flex align-items-center my-3">
           <span className="w-25 text-center">
             <BsGithub />
