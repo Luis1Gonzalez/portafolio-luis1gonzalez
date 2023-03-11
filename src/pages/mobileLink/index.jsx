@@ -63,7 +63,7 @@ const MobileLink = () => {
           </span>
           <a
             className="w-75 text-start"
-            href="https://portafolio-luis1gonzalez.netlify.app"
+            href="https://portfolio-luis1gonzalez-2023.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
